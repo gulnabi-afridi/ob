@@ -122,3 +122,7 @@ body {
   box-shadow: 0px 40px 40px 8px rgba(0, 0, 0, 0.16);
   backdrop-filter: blur(12px);
 }
+
+.secBg {
+  background: rgba(255, 255, 255, 0.04);
+}
