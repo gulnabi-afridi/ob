@@ -56,6 +56,16 @@ body {
   font-display: swap;
 }
 
+.textColor {
+  background: var(
+    --Gradients-Teals,
+    linear-gradient(101deg, #00ffe5 0%, #009788 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* footer styles ----->  */
 .ftBg {
   border-top: 0.5px solid var(--whites-10, rgba(255, 255, 255, 0.1));
