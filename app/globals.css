@@ -7,3 +7,9 @@
 body {
   background-color: #090b0b;
 }
+
+/* footer styles ----->  */
+.ftBg {
+  border-top: 0.5px solid var(--whites-10, rgba(255, 255, 255, 0.1));
+  background: linear-gradient(101deg, #090b0b 0%, #1c2222 100%);
+}
