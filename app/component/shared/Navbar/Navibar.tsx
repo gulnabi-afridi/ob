@@ -5,12 +5,12 @@ import Link from 'next/link';
 
 const Navibar = () => {
   return (
-    <div className='w-full bg-transparent h-[90px]'>
+    <div className='w-full bg-transparent h-[60px] sm:h-[90px]'>
       <Wrapper style='h-full'>
         <div className='w-full h-full flex justify-between items-center'>
-          <Icons.logo className='w-[147px] h-[32px]' />
+          <Icons.logo className='w-[147px] h-[28px] sm:h-[32px]' />
           {/* links ---> */}
-          <div className='flex justify-center items-center gap-10'>
+          <div className='hidden md:flex justify-center items-center gap-10'>
             {links.map((item, index) => {
               return (
                 <Link
@@ -24,9 +24,13 @@ const Navibar = () => {
             })}
           </div>
           {/* trade now btn -----> */}
-          <button className='text-white-1 px-8 py-3 bg-purple-1 rounded-lg text-[16px] font-medium hover:opacity-80 active:translate-y-[1px]'>
+          <button className='text-white-1 px-8 md:block hidden py-3 bg-purple-1 rounded-lg text-[16px] font-medium hover:opacity-80 active:translate-y-[1px]'>
             Trade Now
           </button>
+          {/* navibar for small screen -----> */}
+          <div className=''>
+            <Icons.hamburger className='w-[28px] sm:w-[34px] h-[28px] sm:h-[34px]' />
+          </div>
         </div>
       </Wrapper>
     </div>
