@@ -7,6 +7,54 @@
 body {
   background-color: #090b0b;
 }
+@font-face {
+  font-family: 'TerminaTest-Thin';
+  src: url('/fonts/TerminaTest-Thin.woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TerminaTest-Regular';
+  src: url('/fonts/TerminaTest-Regular.woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'TerminaTest-Medium';
+  src: url('/fonts/TerminaTest-Medium.woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'TerminaTest-Light';
+  src: url('/fonts/TerminaTest-Light.woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'TerminaTest-heavy';
+  src: url('/fonts/TerminaTest-heavy.woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'TerminaTest-ExtraLight';
+  src: url('/fonts/TerminaTest-ExtraLight.woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'TerminaTest-Demi';
+  src: url('/fonts/TerminaTest-Demi.woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TerminaTest-Bold';
+  src: url('/fonts/TerminaTest-Bold.woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TerminaTest-Black';
+  src: url('/fonts/TerminaTest-Black.woff');
+  font-display: swap;
+}
 
 /* footer styles ----->  */
 .ftBg {

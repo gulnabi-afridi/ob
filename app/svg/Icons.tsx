@@ -203,3 +203,382 @@ export const gitBook: React.FC<Props> = ({
     />
   </svg>
 );
+
+export const shade1: React.FC<Props> = ({
+  fill = 'none',
+  stroke = '',
+  className = 'w-[319px] h-[416px]',
+}: Props) => (
+  <svg
+    xmlns='http://www.w3.org/2000/svg'
+    className={className}
+    viewBox='0 0 319 416'
+    fill='none'
+  >
+    <g opacity='0.2' filter='url(#filter0_f_6135_21037)'>
+      <path
+        d='M168.773 151.015V264.455L199.001 277.709V138.23L168.773 151.015Z'
+        fill='url(#paint0_linear_6135_21037)'
+      />
+      <path
+        d='M132.766 140.595V274.89L152.893 286.832V129.121L132.766 140.595Z'
+        fill='url(#paint1_linear_6135_21037)'
+      />
+      <path
+        d='M100.934 131.474V284.002L116.88 295.944V120L100.934 131.474Z'
+        fill='url(#paint2_linear_6135_21037)'
+      />
+      <path
+        d='M-13 138.231V277.709L17.2277 264.455V151.015L-13 138.231Z'
+        fill='url(#paint3_linear_6135_21037)'
+      />
+      <path
+        d='M33.1055 129.121V286.832L53.2228 274.89V140.595L33.1055 129.121Z'
+        fill='url(#paint4_linear_6135_21037)'
+      />
+      <path
+        d='M69.125 120V295.944L85.0719 284.002V131.474L69.125 120Z'
+        fill='url(#paint5_linear_6135_21037)'
+      />
+    </g>
+    <defs>
+      <filter
+        id='filter0_f_6135_21037'
+        x='-133'
+        y='0'
+        width='452.001'
+        height='415.944'
+        filterUnits='userSpaceOnUse'
+        color-interpolation-filters='sRGB'
+      >
+        <feFlood flood-opacity='0' result='BackgroundImageFix' />
+        <feBlend
+          mode='normal'
+          in='SourceGraphic'
+          in2='BackgroundImageFix'
+          result='shape'
+        />
+        <feGaussianBlur
+          stdDeviation='60'
+          result='effect1_foregroundBlur_6135_21037'
+        />
+      </filter>
+      <linearGradient
+        id='paint0_linear_6135_21037'
+        x1='154.782'
+        y1='248.194'
+        x2='234.557'
+        y2='179.554'
+        gradientUnits='userSpaceOnUse'
+      >
+        <stop stop-color='#A100FF' />
+        <stop offset='1' stop-color='#00E9B2' />
+      </linearGradient>
+      <linearGradient
+        id='paint1_linear_6135_21037'
+        x1='111.479'
+        y1='250.15'
+        x2='195.107'
+        y2='178.194'
+        gradientUnits='userSpaceOnUse'
+      >
+        <stop stop-color='#A100FF' />
+        <stop offset='1' stop-color='#00E9B2' />
+      </linearGradient>
+      <linearGradient
+        id='paint2_linear_6135_21037'
+        x1='74.6797'
+        y1='253.489'
+        x2='164.932'
+        y2='175.834'
+        gradientUnits='userSpaceOnUse'
+      >
+        <stop stop-color='#A100FF' />
+        <stop offset='1' stop-color='#00E9B2' />
+      </linearGradient>
+      <linearGradient
+        id='paint3_linear_6135_21037'
+        x1='-38.2915'
+        y1='248.315'
+        x2='41.7109'
+        y2='179.468'
+        gradientUnits='userSpaceOnUse'
+      >
+        <stop stop-color='#A100FF' />
+        <stop offset='1' stop-color='#00E9B2' />
+      </linearGradient>
+      <linearGradient
+        id='paint4_linear_6135_21037'
+        x1='1.63596'
+        y1='250.27'
+        x2='85.5016'
+        y2='178.11'
+        gradientUnits='userSpaceOnUse'
+      >
+        <stop stop-color='#A100FF' />
+        <stop offset='1' stop-color='#00E9B2' />
+      </linearGradient>
+      <linearGradient
+        id='paint5_linear_6135_21037'
+        x1='32.6882'
+        y1='253.609'
+        x2='123.176'
+        y2='175.761'
+        gradientUnits='userSpaceOnUse'
+      >
+        <stop stop-color='#A100FF' />
+        <stop offset='1' stop-color='#00E9B2' />
+      </linearGradient>
+    </defs>
+  </svg>
+);
+
+export const shade2: React.FC<Props> = ({
+  fill = 'none',
+  stroke = '',
+  className = 'w-[345px] h-[469px]',
+}: Props) => (
+  <svg
+    xmlns='http://www.w3.org/2000/svg'
+    className={className}
+    viewBox='0 0 345 469'
+    fill='none'
+  >
+    <g opacity='0.25' filter='url(#filter0_f_6135_21030)'>
+      <path
+        d='M286.844 145.046L342.472 254.912L372.661 255.754L304.264 120.669L286.844 145.046Z'
+        fill='url(#paint0_linear_6135_21030)'
+      />
+      <path
+        d='M250.08 150.98L315.935 281.044L337.566 284.624L260.227 131.88L250.08 150.98Z'
+        fill='url(#paint1_linear_6135_21030)'
+      />
+      <path
+        d='M217.22 156.507L292.017 304.23L310.371 309.469L224.091 139.067L217.22 156.507Z'
+        fill='url(#paint2_linear_6135_21030)'
+      />
+      <path
+        d='M120.943 213.484L189.341 348.569L206.531 323.738L150.902 213.872L120.943 213.484Z'
+        fill='url(#paint3_linear_6135_21030)'
+      />
+      <path
+        d='M156.047 184.629L233.385 337.372L243.295 317.823L177.439 187.759L156.047 184.629Z'
+        fill='url(#paint4_linear_6135_21030)'
+      />
+      <path
+        d='M183.215 159.77L269.495 330.171L276.136 312.277L201.339 164.554L183.215 159.77Z'
+        fill='url(#paint5_linear_6135_21030)'
+      />
+    </g>
+    <defs>
+      <filter
+        id='filter0_f_6135_21030'
+        x='0.943359'
+        y='0.669373'
+        width='491.718'
+        height='467.9'
+        filterUnits='userSpaceOnUse'
+        color-interpolation-filters='sRGB'
+      >
+        <feFlood flood-opacity='0' result='BackgroundImageFix' />
+        <feBlend
+          mode='normal'
+          in='SourceGraphic'
+          in2='BackgroundImageFix'
+          result='shape'
+        />
+        <feGaussianBlur
+          stdDeviation='60'
+          result='effect1_foregroundBlur_6135_21030'
+        />
+      </filter>
+      <linearGradient
+        id='paint0_linear_6135_21030'
+        x1='323.534'
+        y1='244.716'
+        x2='370.981'
+        y2='156.59'
+        gradientUnits='userSpaceOnUse'
+      >
+        <stop stop-color='#A100FF' />
+        <stop offset='1' stop-color='#00E9B2' />
+      </linearGradient>
+      <linearGradient
+        id='paint1_linear_6135_21030'
+        x1='287.121'
+        y1='265.53'
+        x2='336.86'
+        y2='173.148'
+        gradientUnits='userSpaceOnUse'
+      >
+        <stop stop-color='#A100FF' />
+        <stop offset='1' stop-color='#00E9B2' />
+      </linearGradient>
+      <linearGradient
+        id='paint2_linear_6135_21030'
+        x1='256.479'
+        y1='285.096'
+        x2='310.157'
+        y2='185.396'
+        gradientUnits='userSpaceOnUse'
+      >
+        <stop stop-color='#A100FF' />
+        <stop offset='1' stop-color='#00E9B2' />
+      </linearGradient>
+      <linearGradient
+        id='paint3_linear_6135_21030'
+        x1='155.105'
+        y1='330.137'
+        x2='202.685'
+        y2='241.749'
+        gradientUnits='userSpaceOnUse'
+      >
+        <stop stop-color='#A100FF' />
+        <stop offset='1' stop-color='#00E9B2' />
+      </linearGradient>
+      <linearGradient
+        id='paint4_linear_6135_21030'
+        x1='190.793'
+        y1='314.449'
+        x2='240.674'
+        y2='221.804'
+        gradientUnits='userSpaceOnUse'
+      >
+        <stop stop-color='#A100FF' />
+        <stop offset='1' stop-color='#00E9B2' />
+      </linearGradient>
+      <linearGradient
+        id='paint5_linear_6135_21030'
+        x1='220.179'
+        y1='303.628'
+        x2='274'
+        y2='203.678'
+        gradientUnits='userSpaceOnUse'
+      >
+        <stop stop-color='#A100FF' />
+        <stop offset='1' stop-color='#00E9B2' />
+      </linearGradient>
+    </defs>
+  </svg>
+);
+
+export const arrow1: React.FC<Props> = ({
+  fill = 'none',
+  stroke = '',
+  className = 'w-[149px] h-[167px]',
+}: Props) => (
+  <svg
+    xmlns='http://www.w3.org/2000/svg'
+    className={className}
+    viewBox='0 0 149 167'
+    fill='none'
+  >
+    <g opacity='0.5'>
+      <path
+        // style='mix-blend-mode:screen'
+        d='M57.4541 136.395C56.5348 120.55 42.9219 108.442 27.0793 109.362C11.2367 110.3 -0.870192 123.895 0.0490707 139.759C0.968334 155.623 14.5812 167.711 30.4239 166.792C46.286 165.873 58.3734 152.258 57.4541 136.395Z'
+        fill='url(#paint0_radial_6135_21009)'
+      />
+      <path
+        opacity='0.06'
+        d='M32.1832 139.604C30.9901 140.993 28.8973 141.169 27.4891 139.976C26.1004 138.783 25.9244 136.69 27.1174 135.281C28.3105 133.893 140.734 8.4687 140.774 8.50782C141.223 8.89904 33.3762 138.215 32.1832 139.604Z'
+        fill='white'
+      />
+      <path
+        opacity='0.12'
+        d='M32.1055 139.525C30.9515 140.875 28.937 141.031 27.5874 139.877C26.2379 138.723 26.0814 136.708 27.2354 135.358C28.3893 134.009 133.361 16.9374 133.459 17.0157C133.929 17.4069 33.279 138.175 32.125 139.525H32.1055Z'
+        fill='white'
+      />
+      <path
+        opacity='0.19'
+        d='M32.007 139.45C30.8922 140.741 28.9559 140.897 27.6454 139.802C26.3546 138.687 26.1981 136.75 27.2934 135.44C28.4082 134.149 125.948 25.4296 126.085 25.547C126.554 25.9577 33.1023 138.159 32.007 139.469V139.45Z'
+        fill='white'
+      />
+      <path
+        opacity='0.25'
+        d='M31.9098 139.37C30.8537 140.622 28.976 140.759 27.7243 139.703C26.4725 138.646 26.3356 136.769 27.3918 135.517C28.4675 134.265 118.594 33.9179 118.751 34.0548C119.24 34.4656 32.9856 138.118 31.9098 139.37Z'
+        fill='white'
+      />
+      <path
+        opacity='0.31'
+        d='M31.8315 139.291C30.8145 140.484 29.0151 140.621 27.8024 139.604C26.6094 138.587 26.4724 136.787 27.4895 135.574C28.5066 134.381 111.201 42.3867 111.416 42.5628C111.925 42.9931 32.8486 138.098 31.8315 139.291Z'
+        fill='white'
+      />
+      <path
+        opacity='0.38'
+        d='M31.7326 139.215C30.7547 140.37 29.0335 140.507 27.8795 139.528C26.7255 138.55 26.5886 136.829 27.5861 135.675C28.5641 134.521 103.826 50.8985 104.081 51.0941C104.589 51.544 32.7301 138.081 31.7522 139.215H31.7326Z'
+        fill='white'
+      />
+      <path
+        opacity='0.44'
+        d='M31.6556 139.136C30.7168 140.232 29.0738 140.369 27.9785 139.43C26.8833 138.491 26.7463 136.848 27.6852 135.752C28.624 134.657 96.4539 59.3674 96.7472 59.6217C97.2753 60.0716 32.5944 138.061 31.6556 139.156V139.136Z'
+        fill='white'
+      />
+      <path
+        opacity='0.5'
+        d='M31.5565 139.057C30.6568 140.113 29.0921 140.231 28.0359 139.331C26.9797 138.431 26.8624 136.866 27.7621 135.81C28.6618 134.754 89.0593 67.8364 89.3918 68.1102C89.9395 68.5797 32.4562 138.001 31.5565 139.038V139.057Z'
+        fill='white'
+      />
+      <path
+        opacity='0.56'
+        d='M31.4586 138.978C30.6176 139.976 29.1116 140.093 28.1141 139.252C27.1166 138.391 26.9992 136.905 27.8598 135.907C28.7204 134.91 81.6856 76.3445 82.0572 76.6575C82.6244 77.127 32.3388 138 31.4782 138.998L31.4586 138.978Z'
+        fill='white'
+      />
+      <path
+        opacity='0.62'
+        d='M31.3817 138.903C30.5797 139.842 29.152 139.959 28.1936 139.157C27.2548 138.355 27.1374 136.928 27.9393 135.969C28.7412 135.03 74.2936 84.8175 74.7044 85.1501C75.2716 85.6391 32.1836 137.945 31.3817 138.903Z'
+        fill='white'
+      />
+      <path
+        opacity='0.69'
+        d='M31.2845 138.821C30.5217 139.721 29.1721 139.819 28.2724 139.056C27.3727 138.293 27.2749 136.943 28.0377 136.043C28.8005 135.144 66.9206 93.2834 67.3704 93.6746C67.9572 94.1636 32.0668 137.921 31.2845 138.821Z'
+        fill='white'
+      />
+      <path
+        opacity='0.75'
+        d='M31.1866 138.746C30.4629 139.588 29.1916 139.705 28.3506 138.981C27.5096 138.257 27.4118 136.986 28.1354 136.145C28.8591 135.304 59.5468 101.796 60.0358 102.207C60.6226 102.715 31.9298 137.905 31.2062 138.766L31.1866 138.746Z'
+        fill='white'
+      />
+      <path
+        opacity='0.81'
+        d='M31.1066 138.669C30.422 139.471 29.2289 139.569 28.427 138.884C27.6251 138.2 27.5273 137.007 28.2119 136.205C28.8964 135.403 52.1518 110.267 52.6799 110.717C53.2862 111.245 31.7911 137.887 31.1066 138.669Z'
+        fill='white'
+      />
+      <path
+        opacity='0.88'
+        d='M31.0087 138.586C30.3633 139.329 29.2484 139.427 28.5052 138.781C27.762 138.136 27.6642 137.021 28.3096 136.278C28.9551 135.534 44.7781 118.751 45.3453 119.221C45.9712 119.749 31.6542 137.843 31.0087 138.586Z'
+        fill='white'
+      />
+      <path
+        opacity='0.94'
+        d='M30.9116 138.513C30.3248 139.217 29.2686 139.295 28.5645 138.689C27.8604 138.102 27.7822 137.046 28.3885 136.341C28.9753 135.637 37.3855 127.207 37.9919 127.735C38.6373 128.282 31.5179 137.809 30.9116 138.493V138.513Z'
+        fill='white'
+      />
+      <path
+        d='M30.8346 138.434C30.2869 139.08 29.309 139.158 28.6635 138.61C28.0181 138.063 27.9399 137.084 28.4875 136.439C29.0352 135.793 30.0131 135.715 30.6585 136.263C31.304 136.811 31.3822 137.789 30.8346 138.434Z'
+        fill='white'
+      />
+    </g>
+    <defs>
+      <radialGradient
+        id='paint0_radial_6135_21009'
+        cx='0'
+        cy='0'
+        r='1'
+        gradientUnits='userSpaceOnUse'
+        gradientTransform='translate(28.655 138.192) rotate(-3.34034) scale(28.7514 28.7544)'
+      >
+        <stop stop-color='white' stop-opacity='0.99' />
+        <stop offset='0.08' stop-color='white' stop-opacity='0.78' />
+        <stop offset='0.17' stop-color='white' stop-opacity='0.6' />
+        <stop offset='0.26' stop-color='white' stop-opacity='0.44' />
+        <stop offset='0.35' stop-color='white' stop-opacity='0.3' />
+        <stop offset='0.45' stop-color='white' stop-opacity='0.19' />
+        <stop offset='0.55' stop-color='white' stop-opacity='0.11' />
+        <stop offset='0.67' stop-color='white' stop-opacity='0.05' />
+        <stop offset='0.8' stop-color='white' stop-opacity='0.01' />
+        <stop offset='1' stop-color='white' stop-opacity='0' />
+      </radialGradient>
+    </defs>
+  </svg>
+);

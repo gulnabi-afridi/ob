@@ -14,7 +14,15 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       fontFamily: {
-        termina: ['Termina Test', 'sans-serif'],
+        terminaThin: ['TerminaTest-Thin', 'sans-serif'],
+        terminaRegular: ['TerminaTest-Regular', 'sans-serif'],
+        terminaMedium: ['TerminaTest-Medium', 'sans-serif'],
+        terminaLight: ['TerminaTest-Light', 'sans-serif'],
+        terminaheavy: ['TerminaTest-heavy', 'sans-serif'],
+        terminaExtraLight: ['TerminaTest-ExtraLight', 'sans-serif'],
+        terminaExtraDemi: ['TerminaTest-Demi', 'sans-serif'],
+        terminaExtraBold: ['TerminaTest-Bold', 'sans-serif'],
+        terminaExtraBlack: ['TerminaTest-Black', 'sans-serif'],
       },
       screens: {
         xs: '325px',
