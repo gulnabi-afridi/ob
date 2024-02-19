@@ -65,9 +65,60 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.textColor2 {
+  background: var(
+    --Gradients-Light-Purp,
+    linear-gradient(
+      100deg,
+      rgba(205, 200, 242, 0.99) -4.9%,
+      #b9a5ff -4.89%,
+      #9283d0 100%
+    )
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 /* footer styles ----->  */
 .ftBg {
   border-top: 0.5px solid var(--whites-10, rgba(255, 255, 255, 0.1));
   background: linear-gradient(101deg, #090b0b 0%, #1c2222 100%);
+}
+
+.col1 {
+  border-radius: 20px 80px 20px 20px;
+  border: 0.5px solid var(--Gradients-Multipoint-Multipoint-4, #d7eefe);
+  background: rgba(29, 29, 29, 0.4);
+  box-shadow: 0px 40px 40px 8px rgba(0, 0, 0, 0.16);
+  backdrop-filter: blur(12px);
+}
+
+.col2 {
+  border-radius: 80px 20px 20px 20px;
+  border: 0.5px solid var(--Gradients-Multipoint-Multipoint-4, #d7eefe);
+  background: rgba(29, 29, 29, 0.4);
+  box-shadow: 0px 40px 40px 8px rgba(0, 0, 0, 0.16);
+  backdrop-filter: blur(12px);
+}
+.col3 {
+  border-radius: 20px 20px 20px 80px;
+  border: 0.5px solid var(--Gradients-Multipoint-Multipoint-4, #d7eefe);
+  background: rgba(29, 29, 29, 0.4);
+  box-shadow: 0px 40px 40px 8px rgba(0, 0, 0, 0.16);
+  backdrop-filter: blur(12px);
+}
+.col4 {
+  border-radius: 20px;
+  border: 0.5px solid var(--Gradients-Multipoint-Multipoint-4, #d7eefe);
+  background: rgba(29, 29, 29, 0.4);
+  box-shadow: 0px 40px 40px 8px rgba(0, 0, 0, 0.16);
+  backdrop-filter: blur(12px);
+}
+.col5 {
+  border-radius: 20px 80px 20px 20px;
+  border: 0.5px solid var(--Gradients-Multipoint-Multipoint-4, #d7eefe);
+  background: rgba(29, 29, 29, 0.4);
+  box-shadow: 0px 40px 40px 8px rgba(0, 0, 0, 0.16);
+  backdrop-filter: blur(12px);
 }
