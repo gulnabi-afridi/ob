@@ -21,7 +21,11 @@ const Footer = () => {
             {/* social icons ---> */}
             <div className='flex gap-6 justify-center items-center'>
               {socialIcons.map((item, index) => {
-                return <Link href={item.path}>{item.name}</Link>;
+                return (
+                  <Link key={index} href={item.path}>
+                    {item.name}
+                  </Link>
+                );
               })}
             </div>
             <p className='text-[16px] font-normal text-white-1/60'>
