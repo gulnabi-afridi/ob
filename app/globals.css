@@ -90,39 +90,71 @@ body {
   border-radius: 20px 80px 20px 20px;
   border: 0.5px solid var(--Gradients-Multipoint-Multipoint-4, #d7eefe);
   background: rgba(29, 29, 29, 0.4);
-  box-shadow: 0px 40px 40px 8px rgba(0, 0, 0, 0.16);
-  backdrop-filter: blur(12px);
 }
 
 .col2 {
   border-radius: 80px 20px 20px 20px;
   border: 0.5px solid var(--Gradients-Multipoint-Multipoint-4, #d7eefe);
   background: rgba(29, 29, 29, 0.4);
-  box-shadow: 0px 40px 40px 8px rgba(0, 0, 0, 0.16);
   backdrop-filter: blur(12px);
 }
 .col3 {
   border-radius: 20px 20px 20px 80px;
   border: 0.5px solid var(--Gradients-Multipoint-Multipoint-4, #d7eefe);
   background: rgba(29, 29, 29, 0.4);
-  box-shadow: 0px 40px 40px 8px rgba(0, 0, 0, 0.16);
   backdrop-filter: blur(12px);
 }
 .col4 {
   border-radius: 20px;
   border: 0.5px solid var(--Gradients-Multipoint-Multipoint-4, #d7eefe);
   background: rgba(29, 29, 29, 0.4);
-  box-shadow: 0px 40px 40px 8px rgba(0, 0, 0, 0.16);
   backdrop-filter: blur(12px);
 }
 .col5 {
   border-radius: 20px 80px 20px 20px;
   border: 0.5px solid var(--Gradients-Multipoint-Multipoint-4, #d7eefe);
   background: rgba(29, 29, 29, 0.4);
-  box-shadow: 0px 40px 40px 8px rgba(0, 0, 0, 0.16);
   backdrop-filter: blur(12px);
 }
 
 .secBg {
   background: rgba(255, 255, 255, 0.04);
+}
+
+/* =======> drawer style */
+.drawer {
+  width: 50% !important;
+  background-color: #090b0b !important;
+}
+@media screen and (max-width: 976px) {
+  .col1 {
+    border: none !important;
+    background-color: transparent !important;
+  }
+  .col2 {
+    border: none !important;
+    background-color: transparent !important;
+  }
+  .col3 {
+    border: none !important;
+    background-color: transparent !important;
+  }
+  .col4 {
+    border: none !important;
+    background-color: transparent !important;
+  }
+  .col5 {
+    border: none !important;
+    background-color: transparent !important;
+  }
+}
+@media screen and (max-width: 700px) {
+  .drawer {
+    width: 70% !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .drawer {
+    width: 100% !important;
+  }
 }

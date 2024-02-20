@@ -7,11 +7,11 @@ import BuildingOnTheBook from './component/LandingPage/BuildingOnTheBook';
 export default function Home() {
   return (
     <main>
-      {/* <Hero />
+      <Hero />
       <Opos />
       <WhoWeAre />
       <Security />
-      <BuildingOnTheBook /> */}
+      <BuildingOnTheBook />
     </main>
   );
 }
