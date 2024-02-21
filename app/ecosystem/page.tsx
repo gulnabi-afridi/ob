@@ -5,7 +5,7 @@ import * as Icons from '../svg/Icons';
 
 const page = () => {
   return (
-    <div className='w-full min-h-[calc(100vh-90px)]'>
+    <div className='w-full min-h-[calc(100vh-90px)] relative'>
       <Wrapper>
         <div className='w-full h-full flex flex-col gap-8 sm:gap-16 pt-10 sm:pt-20 xl:pb-0 pb-10 sm:pb-16 justify-start items-center'>
           <div className='flex flex-col gap-0 justify-center items-center w-full'>
@@ -68,6 +68,8 @@ const page = () => {
           </div>
         </div>
       </Wrapper>
+      {/* bg shape ---->  */}
+      <div className="w-full h-full bg-[url('/assets/looper.png')] bg-no-repeat bg-cover absolute top-0 left-0"></div>
     </div>
   );
 };

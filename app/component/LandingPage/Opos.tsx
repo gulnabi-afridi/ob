@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Opos = () => {
   return (
-    <div className='w-full py-10 sm:mt-0 -mt-[5rem] xsm:-mt-[4rem] sm:py-24 lg:py-36 relative'>
+    <div className='w-full py-10 sm:mt-0 -mt-[5rem] xsm:-mt-[4rem] sm:py-24 lg:py-36 relative z-30'>
       <Wrapper>
         <div className='w-full grid lg:gap-4 grid-cols-1 gap-10 lg:grid-cols-2 justify-center items-center'>
           {/* left por ----> */}
