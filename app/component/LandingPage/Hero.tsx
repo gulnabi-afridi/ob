@@ -1,44 +1,59 @@
+'use client';
+
 import React from 'react';
 import Wrapper from '../shared/ComponentWrapper/Wrapper';
 import * as Icons from '../../svg/Icons';
+import { Fade, Zoom, Slide } from 'react-awesome-reveal';
 
 const Hero = () => {
   return (
     <div className='w-full h-[calc(100vh-60px)] md:h-[calc(100vh-90px)] justify-center items-center flex relative'>
       <Wrapper style='h-full'>
-        <div className='w-full flex flex-col gap-5 justify-center items-center h-full'>
-          <div className="w-full -mt-28 max-w-[300px] sm:max-w-[450px] md:max-w-[940px] h-[300px] sm:h-[400px] md:h-[490px] bg-[url('/assets/heroShape.svg')] flex flex-col justify-center items-center bg-center bg-cover bg-no-repeat">
-            <p className='text-[#E0C7FF] mt-[5rem] sm:mt-[9rem] text-[16px] sm:text-[24px] md:text-[30px] font-semibold'>
-              OpenBook
-            </p>
+        <Fade duration={1200} triggerOnce>
+          <div className='w-full flex flex-col gap-5 justify-center items-center h-full'>
+            <Zoom duration={1500} triggerOnce>
+              <div className="w-full -mt-28 max-w-[300px] sm:max-w-[450px] md:max-w-[940px] h-[300px] sm:h-[400px] md:h-[490px] bg-[url('/assets/heroShape.svg')] flex flex-col justify-center items-center bg-center bg-cover bg-no-repeat">
+                <p className='text-[#E0C7FF] mt-[5rem] sm:mt-[9rem] text-[16px] sm:text-[24px] md:text-[30px] font-semibold'>
+                  OpenBook
+                </p>
 
-            <h1 className='text-[38px] sm:block hidden sm:text-[50px] md:text-[70px] lg:text-[96px] tracking-[4px] leading-[50px] sm:leading-[60px] md:leading-[90px] lg:leading-[120px] text-center font-bold font-terminaExtraBold text-white-1'>
-              A DEX For <br /> The People
-            </h1>
-            <h1 className='text-[36px] sm:hidden block sm:text-[50px] md:text-[70px] lg:text-[96px] tracking-[4px] leading-[50px] sm:leading-[60px] md:leading-[90px] lg:leading-[120px] text-center font-bold font-terminaExtraBold text-white-1'>
-              A DEX For The People
-            </h1>
+                <h1 className='text-[38px] sm:block hidden sm:text-[50px] md:text-[70px] lg:text-[96px] tracking-[4px] leading-[50px] sm:leading-[60px] md:leading-[90px] lg:leading-[120px] text-center font-bold font-terminaExtraBold text-white-1'>
+                  A DEX For <br /> The People
+                </h1>
+                <h1 className='text-[36px] sm:hidden block sm:text-[50px] md:text-[70px] lg:text-[96px] tracking-[4px] leading-[50px] sm:leading-[60px] md:leading-[90px] lg:leading-[120px] text-center font-bold font-terminaExtraBold text-white-1'>
+                  A DEX For The People
+                </h1>
+              </div>
+            </Zoom>
+            {/* statistics -----> */}
+            <Slide
+              className='w-full flex justify-center items-center'
+              direction='up'
+              duration={1000}
+              delay={500}
+              triggerOnce
+            >
+              <div className='flex max-w-[300px] sm:max-w-[500px] md:max-w-[700px] py-3 rounded-md w-full justify-center border-[1px] border-[#9945FF] items-center gap-24 sm:gap-28'>
+                <div className='flex justify-center items-center flex-col gap-1'>
+                  <p className='text-white-1 text-[20px] sm:text-[30px] md:text-[48px] font-terminaExtraDemi'>
+                    $9.8M
+                  </p>
+                  <p className='text-[14px] sm:text-[16px] md:text-[18px] font-normal text-white-1/60'>
+                    24H Volume
+                  </p>
+                </div>
+                <div className='flex justify-center items-center flex-col gap-1'>
+                  <p className='text-white-1 text-[20px] sm:text-[30px] md:text-[48px] font-terminaExtraDemi'>
+                    8.9k
+                  </p>
+                  <p className='text-[14px] sm:text-[16px] md:text-[18px] font-normal text-white-1/60'>
+                    Total Markets
+                  </p>
+                </div>
+              </div>
+            </Slide>
           </div>
-          {/* statistics -----> */}
-          <div className='flex max-w-[300px] sm:max-w-[500px] md:max-w-[700px] py-3 rounded-md w-full justify-center border-[1px] border-[#9945FF] items-center gap-24 sm:gap-28'>
-            <div className='flex justify-center items-center flex-col gap-1'>
-              <p className='text-white-1 text-[20px] sm:text-[30px] md:text-[48px] font-terminaExtraDemi'>
-                $9.8M
-              </p>
-              <p className='text-[14px] sm:text-[16px] md:text-[18px] font-normal text-white-1/60'>
-                24H Volume
-              </p>
-            </div>
-            <div className='flex justify-center items-center flex-col gap-1'>
-              <p className='text-white-1 text-[20px] sm:text-[30px] md:text-[48px] font-terminaExtraDemi'>
-                8.9k
-              </p>
-              <p className='text-[14px] sm:text-[16px] md:text-[18px] font-normal text-white-1/60'>
-                Total Markets
-              </p>
-            </div>
-          </div>
-        </div>
+        </Fade>
       </Wrapper>
       {/* shade 1 ----> */}
       <div className='absolute -bottom-10 left-0'>
