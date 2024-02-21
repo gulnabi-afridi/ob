@@ -1,11 +1,22 @@
+'use client';
+
 import React from 'react';
 import Wrapper from '../ComponentWrapper/Wrapper';
 import * as Icons from '../../../svg/Icons';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 const Footer = () => {
+  const pathname = usePathname();
+
   return (
-    <div className='w-full ftBg py-10 mt-[25rem] sm:mt-[20rem] md:mt-[11rem]'>
+    <div
+      className={`w-full ftBg py-10 ${
+        pathname === '/ecosystem'
+          ? 'mt-0'
+          : 'mt-[25rem] sm:mt-[20rem] md:mt-[11rem]'
+      } `}
+    >
       <Wrapper>
         <div className='w-full flex justify-center items-center flex-col gap-10'>
           {/* top ---> */}

@@ -89,7 +89,7 @@ const Navibar = () => {
 const links = [
   {
     name: 'Ecosystem',
-    path: '#',
+    path: '/ecosystem',
   },
   {
     name: 'Docs',
