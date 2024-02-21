@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <div className='w-full h-[calc(100vh-60px)] md:h-[calc(100vh-90px)] justify-center items-center flex relative'>
       <Wrapper style='h-full'>
-        <Fade duration={1200} triggerOnce>
+        <Fade duration={1200} triggerOnce className='w-full h-full'>
           <div className='w-full flex flex-col gap-5 justify-center items-center h-full'>
             <Zoom duration={1500} triggerOnce>
               <div className="w-full -mt-28 max-w-[300px] sm:max-w-[450px] md:max-w-[940px] h-[300px] sm:h-[400px] md:h-[490px] bg-[url('/assets/heroShape.svg')] flex flex-col justify-center items-center bg-center bg-cover bg-no-repeat">
