@@ -10,8 +10,8 @@ export default function Home() {
       <Hero />
       <Opos />
       <WhoWeAre />
-      <Security />
-      <BuildingOnTheBook />
+      {/* <Security /> */}
+      {/* <BuildingOnTheBook /> */}
     </main>
   );
 }
