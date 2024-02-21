@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <div className='w-full ftBg py-10 mt-[11rem]'>
+    <div className='w-full ftBg py-10 mt-[25rem] sm:mt-[20rem] md:mt-[11rem]'>
       <Wrapper>
         <div className='w-full flex justify-center items-center flex-col gap-10'>
           {/* top ---> */}
