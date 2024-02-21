@@ -646,8 +646,7 @@ export const otterSec: React.FC<Props> = ({
 }: Props) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    width='313'
-    height='57'
+    className={className}
     viewBox='0 0 313 57'
     fill='none'
   >
