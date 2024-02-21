@@ -1,6 +1,5 @@
 import React from 'react';
 import Wrapper from '../ComponentWrapper/Wrapper';
-import Image from 'next/image';
 import * as Icons from '../../../svg/Icons';
 import Link from 'next/link';
 
