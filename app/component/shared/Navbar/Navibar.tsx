@@ -20,7 +20,9 @@ const Navibar = () => {
     <div className='w-full bg-transparent h-[60px] sm:h-[90px]'>
       <Wrapper style='h-full'>
         <div className='w-full h-full flex justify-between items-center'>
-          <Icons.logo className='w-[147px] h-[28px] sm:h-[32px]' />
+          <Link href='/'>
+            <Icons.logo className='w-[147px] h-[28px] sm:h-[32px]' />
+          </Link>
           {/* links ---> */}
           <div className='hidden md:flex justify-center items-center gap-10'>
             {links.map((item, index) => {
