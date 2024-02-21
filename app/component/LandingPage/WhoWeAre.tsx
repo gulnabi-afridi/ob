@@ -166,7 +166,10 @@ const WhoWeAre = () => {
                 <div className='w-full flex flex-col gap-4'>
                   <h2 className='text-[40px] break-all lg:block hidden mt-[9rem] tracking-[3px] leading-[45px] text-white-1 font-terminaExtraDemi'>
                     Permisonless <br /> Trustless{' '}
-                    <span className='textColor2'> Transparent</span>
+                    <span className='textColor2'>
+                      {' '}
+                      <br /> Transparent
+                    </span>
                   </h2>
                   <h2 className='text-[26px] sm:text-[40px] lg:hidden block break-all text-center mt-[5rem] lg:mt-[9rem] tracking-[3px] leading-[40px] sm:leading-[55px] text-white-1 font-terminaExtraDemi'>
                     Permisonless <br /> Trustless <br />

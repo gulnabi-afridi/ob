@@ -6,9 +6,11 @@ import * as Icons from '../../../svg/Icons';
 import Link from 'next/link';
 import Drawer from 'react-modern-drawer';
 import 'react-modern-drawer/dist/index.css';
+import { usePathname } from 'next/navigation';
 
 const Navibar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const pathName = usePathname();
 
   const toggleDrawer = () => {
     setIsOpen((prevState) => !prevState);
@@ -26,7 +28,10 @@ const Navibar = () => {
                 <Link
                   key={index}
                   href={item.path}
-                  className='text-white-1 font-normal text-[18px] relative after:absolute after:w-0 after:bottom-0 after:left-0 after:h-[2px] after:bg-white-1 hover:after:w-full after:duration-200'
+                  className={`text-white-1 ${
+                    pathName === item.path &&
+                    'after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-[#00FFE5] after:w-full after:duration-200'
+                  } font-normal text-[18px] relative after:absolute after:w-0 after:bottom-0 after:left-0 after:h-[2px] after:bg-white-1 hover:after:w-full after:duration-200`}
                 >
                   {item.name}
                 </Link>
