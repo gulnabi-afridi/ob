@@ -22,7 +22,7 @@ const WhoWeAre = () => {
             <Slide
               direction='left'
               duration={1000}
-              className='w-full h-full'
+              className='w-full h-full z-50'
               triggerOnce
             >
               <div className='w-full h-full justify-center flex items-center'>
@@ -57,7 +57,7 @@ const WhoWeAre = () => {
                     </p>
                   </div>
                   {/* learn more btn ---->  */}
-                  <button className='flex hover:opacity-80 lg:mt-0 mt-8 justify-center items-center gap-2'>
+                  <button className='flex cursor-pointer hover:opacity-80 lg:mt-0 mt-8 justify-center items-center gap-2'>
                     <p className='text-white-1 text-[16px] font-normal'>
                       Learn More
                     </p>
@@ -70,7 +70,7 @@ const WhoWeAre = () => {
             <Slide
               direction='right'
               duration={1000}
-              className='w-full h-full'
+              className='w-full h-full z-50'
               triggerOnce
             >
               <div className='w-full h-full px-0 sm:px-6 py-6 col2 relative justify-between flex flex-col items-center lg:items-start'>
@@ -84,7 +84,7 @@ const WhoWeAre = () => {
                       className='object-fill'
                     />
                   </div>
-                  <div className='w-full lg:w-[900px] lg:hidden block h-[150px] sm:h-[300px] md:h-[400px] lg:h-[450px] relative lg:ml-0 -ml-[0rem] -mb-[4rem] lg:mb-0'>
+                  <div className='w-full lg:w-[900px] lg:hidden block h-[200px] sm:h-[300px] md:h-[400px] lg:h-[450px] relative lg:ml-0 -ml-[0rem] -mb-[4rem] lg:mb-0'>
                     <Image
                       src='/assets/sCol2.svg'
                       fill
@@ -122,7 +122,7 @@ const WhoWeAre = () => {
             <Fade
               duration={800}
               delay={200}
-              className='w-full h-full'
+              className='w-full h-full z-50'
               triggerOnce
             >
               <div className='w-full col3 h-full flex items-center lg:items-start justify-between flex-col px-0 sm:px-6 py-6 lg:pb-6 pb-10 sm:pb-20'>
@@ -157,13 +157,13 @@ const WhoWeAre = () => {
             <Fade
               duration={800}
               delay={400}
-              className='w-full h-full'
+              className='w-full h-full z-50'
               triggerOnce
             >
               <div className='w-full flex h-full justify-center items-center'>
                 <div className='w-full max-w-[550px] col4 h-full flex justify-between items-center lg:items-start flex-col px-0 sm:px-6 py-6'>
-                  <div className='w-full block lg:absolute -right-0 top-0'>
-                    <div className='w-full max-w-[200px] xsm:max-w-[250px] sm:max-w-[300px] csm:max-w-[350px] md:max-w-[400px] h-[150px] xsm:h-[200px] sm:h-[250px] csm:h-[300px] relative md:left-0 left-[2rem] xsm:left-3 sm:left-[3rem] csm:left-[2rem]'>
+                  <div className='w-full block lg:absolute -right-12 top-0'>
+                    <div className='w-full max-w-[300px] xsm:max-w-[250px] sm:max-w-[300px] csm:max-w-[350px] md:max-w-[400px] h-[200px] xsm:h-[200px] sm:h-[250px] csm:h-[300px] relative md:left-0 left-[0rem] xsm:left-12 sm:left-[4rem] csm:left-[2rem]'>
                       <Image
                         src='/assets/col4.png'
                         className='object-fill'
@@ -183,7 +183,7 @@ const WhoWeAre = () => {
                     </p>
                   </div>
                   {/* learn more btn ---->  */}
-                  <div className='w-full flex justify-center lg:justify-end lg:mt-0 mt-8'>
+                  <div className='w-full z-20 flex justify-center lg:justify-end lg:mt-0 mt-8'>
                     <button className='flex hover:opacity-80 justify-center items-center gap-2'>
                       <p className='text-white-1 text-[16px] font-normal'>
                         Learn More
@@ -198,7 +198,7 @@ const WhoWeAre = () => {
             <Fade
               duration={800}
               delay={600}
-              className='w-full h-full'
+              className='w-full h-full z-40'
               triggerOnce
             >
               <div className='w-full h-full flex justify-center items-center'>

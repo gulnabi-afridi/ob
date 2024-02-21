@@ -74,7 +74,12 @@ const Navibar = () => {
                       <Link
                         key={index}
                         href={item.path}
-                        className='text-white-1 font-normal text-[22px] relative after:absolute after:w-0 after:bottom-0 after:left-0 after:h-[2px] after:bg-white-1 hover:after:w-full after:duration-200'
+                        onClick={toggleDrawer}
+                        className={`text-white-1 font-normal text-[22px] relative after:absolute after:w-0 after:bottom-0 after:left-0 after:h-[2px] hover:after:w-full after:duration-200 ${
+                          pathName === item.path
+                            ? 'after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-[#00FFE5] after:w-full after:duration-200'
+                            : ' after:bg-white-1'
+                        } `}
                       >
                         {item.name}
                       </Link>
