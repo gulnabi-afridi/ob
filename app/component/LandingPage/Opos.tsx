@@ -39,14 +39,23 @@ const Opos = () => {
                 </p>
               </Slide>
               {/* buttons ---->  */}
-              <div className='w-full flex sm:justify-start justify-center items-center gap-4 sm:gap-6'>
-                <button className='px-[20px] sm:px-[24px] hover:opacity-80 py-[10px] sm:py-[12px] bg-purple-1 text-[16px] sm:text-[18px] text-white-1 rounded-lg'>
-                  Trade Now
-                </button>
-                <button className='px-[20px] sm:px-[24px] hover:opacity-80 border-[1px] border-[#9945FF] py-[10px] sm:py-[12px] bg-transparent text-[16px] sm:text-[18px] text-white-1 rounded-lg'>
-                  Build With Us
-                </button>
-              </div>
+
+              <Fade
+                direction='up'
+                triggerOnce
+                duration={800}
+                delay={1000}
+                className='w-full'
+              >
+                <div className='w-full flex sm:justify-start justify-center items-center gap-4 sm:gap-6'>
+                  <button className='px-[20px] sm:px-[24px] hover:opacity-80 py-[10px] sm:py-[12px] bg-purple-1 text-[16px] sm:text-[18px] text-white-1 rounded-lg'>
+                    Trade Now
+                  </button>
+                  <button className='px-[20px] sm:px-[24px] hover:opacity-80 border-[1px] border-[#9945FF] py-[10px] sm:py-[12px] bg-transparent text-[16px] sm:text-[18px] text-white-1 rounded-lg'>
+                    Build With Us
+                  </button>
+                </div>
+              </Fade>
             </div>
           </div>
           {/* right por ---->  */}
