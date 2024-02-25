@@ -38,9 +38,9 @@ const BuildingOnTheBook = () => {
           </div>
         </div>
         <Slide direction='left' duration={500} delay={500} triggerOnce>
-          <div className='w-[170px] lg:w-[210px] h-[170px] lg:h-[210px] relative'>
+          <div className='w-[170px] lg:w-[190px] h-[170px] lg:h-[190px] relative'>
             <Image
-              src='/assets/solonaShape.png'
+              src='/assets/solanaShape.svg'
               fill
               alt=''
               className='object-fill'
