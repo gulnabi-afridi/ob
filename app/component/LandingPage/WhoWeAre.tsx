@@ -51,7 +51,7 @@ const WhoWeAre = () => {
                       A DEX for <br />{' '}
                       <span className='textColor'> The People</span>
                     </h2>
-                    <p className='text-white-1/80 lg:text-left text-center text-[16px] font-normal'>
+                    <p className='text-white-4 lg:text-left text-center text-[16px] font-normal'>
                       An open source and permissionless public utility, built
                       and funded by the community it serves.
                     </p>
@@ -100,7 +100,7 @@ const WhoWeAre = () => {
                       Composability
                     </span>
                   </h2>
-                  <p className='text-white-1/80 w-full lg:text-left text-center max-w-[400px] text-[16px] font-normal'>
+                  <p className='text-white-4 w-full lg:text-left text-center max-w-[400px] text-[16px] font-normal'>
                     Integrate any project, build your own UI with customized
                     fees and features or fork the codebase to explore new use
                     cases.
@@ -137,7 +137,7 @@ const WhoWeAre = () => {
                     </span>{' '}
                     Protocol Fees
                   </h2>
-                  <p className='text-white-1/80 lg:text-left text-center text-[16px] font-normal'>
+                  <p className='text-white-4 lg:text-left text-center text-[16px] font-normal'>
                     Free to build on. Free to trade on. Free from rent-seeking
                     behavior and venture capital influences.
                   </p>
@@ -177,7 +177,7 @@ const WhoWeAre = () => {
                       Infinite <br />{' '}
                       <span className='textColor'>Customization </span>
                     </h2>
-                    <p className='text-white-1/80 lg:text-left text-center break-all text-[16px] font-normal'>
+                    <p className='text-white-4 lg:text-left text-center break-all text-[16px] font-normal'>
                       Create public or whitelisted markets, set your own fees,
                       and trade any SPL token.
                     </p>
@@ -215,7 +215,7 @@ const WhoWeAre = () => {
                       Permisonless <br /> Trustless <br />
                       <span className='textColor2'> Transparent</span>
                     </h2>
-                    <p className='text-white-1/80 lg:text-left text-center break-all text-[16px] font-normal'>
+                    <p className='text-white-4 lg:text-left text-center break-all text-[16px] font-normal'>
                       100% on-chain and noncustodial orderbook.
                     </p>
                   </div>

@@ -86,6 +86,35 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+.borderGradient {
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.borderGradient::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid transparent;
+  border-radius: 8px;
+
+  background: linear-gradient(
+    to left,
+    #9945ff,
+    #28e0b9,
+    #5497d5,
+    #19fb9b,
+    #43b4ca,
+    #8752f3
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+}
 /* footer styles ----->  */
 .ftBg {
   border-top: 0.5px solid var(--whites-10, rgba(255, 255, 255, 0.1));

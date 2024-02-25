@@ -15,7 +15,7 @@ const BuildingOnTheBook = () => {
             </p>
           </Fade>
           <Slide direction='up' duration={500} delay={200} triggerOnce>
-            <h2 className='text-[24px] sm:text-[30px] lg:text-[38px] text-white-1 font-semibold'>
+            <h2 className='text-[24px] sm:text-[30px] lg:text-[38px] text-white-1/80 font-semibold'>
               Building on the Book?
             </h2>
           </Slide>

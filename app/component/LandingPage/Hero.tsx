@@ -33,7 +33,7 @@ const Hero = () => {
               delay={500}
               triggerOnce
             >
-              <div className='flex max-w-[300px] sm:max-w-[500px] md:max-w-[700px] py-3 rounded-md w-full justify-center border-[1px] border-[#9945FF] items-center gap-24 sm:gap-28'>
+              <div className='flex max-w-[300px] borderGradient sm:max-w-[500px] md:max-w-[700px] py-3 w-full justify-center rounded-xl items-center gap-24 sm:gap-28'>
                 <div className='flex justify-center items-center flex-col gap-1'>
                   <p className='text-white-1 text-[20px] sm:text-[30px] md:text-[48px] font-terminaExtraDemi'>
                     $9.8M

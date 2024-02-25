@@ -31,7 +31,7 @@ const Opos = () => {
                 </Slide>
               </div>
               <Slide direction='up' triggerOnce duration={800} delay={800}>
-                <p className='text-white-1/80 lg:text-left text-center text-[16px] sm:text-[18px] font-normal leading-[28px]'>
+                <p className='text-white-4 lg:text-left text-center text-[16px] sm:text-[18px] font-normal leading-[28px]'>
                   The OpenBook central limit orderbook links many of the largest
                   protocols in Solana DeFi, providing a unified liquidity layer
                   that matches buyers and sellers across the ecosystem, enabling
@@ -51,7 +51,7 @@ const Opos = () => {
                   <button className='px-[20px] sm:px-[24px] hover:opacity-80 py-[10px] sm:py-[12px] bg-purple-1 text-[16px] sm:text-[18px] text-white-1 rounded-lg'>
                     Trade Now
                   </button>
-                  <button className='px-[20px] sm:px-[24px] hover:opacity-80 border-[1px] border-[#9945FF] py-[10px] sm:py-[12px] bg-transparent text-[16px] sm:text-[18px] text-white-1 rounded-lg'>
+                  <button className='px-[20px] hover:bg-white-1/10 borderGradient sm:px-[24px] borderGradient hover:opacity-80  py-[10px] sm:py-[12px] bg-transparent text-[16px] sm:text-[18px] text-white-1 rounded-lg'>
                     Build With Us
                   </button>
                 </div>

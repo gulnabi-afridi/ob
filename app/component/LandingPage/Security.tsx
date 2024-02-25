@@ -16,7 +16,7 @@ const Security = () => {
             </p>
           </Fade>
           <Slide direction='up' duration={800} delay={200} triggerOnce>
-            <h1 className='text-[20px] sm:text-[28px] text-white-1 font-semibold'>
+            <h1 className='text-[20px] sm:text-[28px] text-white-1/80 font-semibold'>
               Audited and Verified by
             </h1>
           </Slide>
@@ -29,7 +29,7 @@ const Security = () => {
 
           {/* view full report btn ----->  */}
           <Fade duration={800} delay={400} triggerOnce className='z-50'>
-            <button className='px-[20px] py-[10px] mt-6 sm:mt-10 active:translate-y-[1px] hover:opacity-80 rounded-lg bg-purple-1 text-white-1 text-[14px] sm:text-[16px] font-medium'>
+            <button className='px-[20px] py-[10px] mt-6 sm:mt-10 active:translate-y-[1px] hover:opacity-80 rounded-lg bg-purple-1 text-white-1/80 text-[14px] sm:text-[16px] font-medium'>
               View Full Report
             </button>
           </Fade>

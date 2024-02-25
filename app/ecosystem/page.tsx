@@ -39,7 +39,7 @@ const page = () => {
                   <p className='text-[12px] sm:text-[18px] lg:text-left text-center font-normal textColor'>
                     TRADE
                   </p>
-                  <div className='w-[160px] sm:w-[250px] h-[25px] sm:h-[50px] relative'>
+                  <div className='w-[160px] sm:w-[250px] h-[25px] sm:h-[44px] relative'>
                     <Image
                       src='/assets/prism.svg'
                       fill
