@@ -5,7 +5,6 @@ import Wrapper from '../shared/ComponentWrapper/Wrapper';
 import * as Icons from '../../svg/Icons';
 import Image from 'next/image';
 import { Fade, Slide } from 'react-awesome-reveal';
-
 const WhoWeAre = () => {
   return (
     <div className='w-full pt-10 pb-24'>
@@ -26,7 +25,7 @@ const WhoWeAre = () => {
               triggerOnce
             >
               <div className='w-full h-full justify-center flex items-center'>
-                <div className='w-full max-w-[550px] px-0 sm:px-6 py-0 sm:py-6 relative col1 h-full flex flex-col justify-between lg:items-start items-center'>
+                <div className='w-full max-w-[550px] lg:max-w-full px-0 sm:px-6 py-0 sm:py-6 relative borderGradientC1  h-full flex flex-col justify-between lg:items-start items-center'>
                   {/* image */}
                   <div className='w-full flex flex-col gap-2'>
                     <div className='block lg:absolute -right-0 top-0'>
@@ -70,10 +69,10 @@ const WhoWeAre = () => {
             <Slide
               direction='right'
               duration={1000}
-              className='w-full h-full z-50'
+              className='w-full h-full flex justify-center items-center z-50'
               triggerOnce
             >
-              <div className='w-full h-full px-0 sm:px-6 py-6 col2 relative justify-between flex flex-col items-center lg:items-start'>
+              <div className='w-full max-w-[550px] lg:max-w-full borderGradientC2 h-full px-0 sm:px-6 py-6 relative justify-between flex flex-col items-center lg:items-start'>
                 {/* image ---> */}
                 <div className='lg:w-auto w-full block lg:absolute -bottom-1 right-0 xl:-right-1'>
                   <div className='w-[500px] lg:block hidden lg:w-[470px] xl:w-[520px] h-[450px] lg:h-[380px] xl:h-[450px] relative lg:ml-0 -ml-[14rem] -mb-[4rem] lg:mb-0'>
@@ -122,10 +121,10 @@ const WhoWeAre = () => {
             <Fade
               duration={800}
               delay={200}
-              className='w-full h-full z-50'
+              className='w-full h-full z-50 justify-center items-center flex'
               triggerOnce
             >
-              <div className='w-full col3 h-full flex items-center lg:items-start justify-between flex-col px-0 sm:px-6 py-6 lg:pb-6 pb-10 sm:pb-20'>
+              <div className='w-full max-w-[550px] borderGradientC3 h-full flex items-center lg:items-start justify-between flex-col px-0 sm:px-6 py-6 lg:pb-6 pb-10 sm:pb-20'>
                 <div className='w-full max-w-[550px] flex flex-col gap-4'>
                   <h2 className='text-[40px] lg:block hidden tracking-[3px] mt-20 leading-[40px] text-white-1 font-terminaExtraDemi'>
                     <span className='textColor'> Zero</span> Protocol Fees
@@ -161,7 +160,7 @@ const WhoWeAre = () => {
               triggerOnce
             >
               <div className='w-full flex h-full justify-center items-center'>
-                <div className='w-full max-w-[550px] col4 h-full flex justify-between items-center lg:items-start flex-col px-0 sm:px-6 py-6'>
+                <div className='w-full max-w-[550px] borderGradientC4 h-full flex justify-between items-center lg:items-start flex-col px-0 sm:px-6 py-6'>
                   <div className='w-full block lg:absolute -right-12 top-0'>
                     <div className='w-full max-w-[300px] xsm:max-w-[250px] sm:max-w-[300px] csm:max-w-[350px] md:max-w-[400px] h-[200px] xsm:h-[200px] sm:h-[250px] csm:h-[300px] relative md:left-0 left-[0rem] xsm:left-12 sm:left-[4rem] csm:left-[2rem]'>
                       <Image
@@ -202,7 +201,7 @@ const WhoWeAre = () => {
               triggerOnce
             >
               <div className='w-full h-full flex justify-center items-center'>
-                <div className='w-full max-w-[550px] h-full col5 flex justify-between items-start flex-col px-0 sm:px-6 py-6'>
+                <div className='w-full max-w-[550px] h-full borderGradientC5 flex justify-between items-start flex-col px-0 sm:px-6 py-6'>
                   <div className='w-full flex flex-col gap-4'>
                     <h2 className='text-[40px] break-all lg:block hidden mt-[9rem] tracking-[3px] leading-[45px] text-white-1 font-terminaExtraDemi'>
                       Permisonless <br /> Trustless{' '}

@@ -85,7 +85,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
+/* border gradents ------>  */
 .borderGradient {
   position: relative;
   border-radius: 6px;
@@ -115,41 +115,113 @@ body {
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;
 }
+.borderGradientC1 {
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.borderGradientC2 {
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.borderGradientC1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid transparent;
+  border-radius: 20px 80px 20px 20px;
+
+  background: linear-gradient(#d7eefe, #7dc7fc, #0682db, #0682db, #d7eefe);
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+}
+.borderGradientC2::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid transparent;
+  border-radius: 80px 20px 20px 20px;
+  background: linear-gradient(#d7eefe, #7dc7fc, #0682db, #0682db, #d7eefe);
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+}
+.borderGradientC3 {
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.borderGradientC3::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid transparent;
+  border-radius: 20px 20px 20px 80px;
+
+  background: linear-gradient(#d7eefe, #7dc7fc, #0682db, #0682db, #d7eefe);
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+}
+.borderGradientC4 {
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.borderGradientC4::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  background: linear-gradient(#d7eefe, #7dc7fc, #0682db, #0682db, #d7eefe);
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+}
+
+.borderGradientC5 {
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.borderGradientC5::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid transparent;
+  border-radius: 20px 80px 20px 20px;
+  background: linear-gradient(#d7eefe, #7dc7fc, #0682db, #0682db, #d7eefe);
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+}
+
+/* border gradients ends here ------> */
 /* footer styles ----->  */
 .ftBg {
   border-top: 0.5px solid var(--whites-10, rgba(255, 255, 255, 0.1));
   background: linear-gradient(101deg, #090b0b 0%, #1c2222 100%);
-}
-
-.col1 {
-  border-radius: 20px 80px 20px 20px;
-  border: 0.5px solid var(--Gradients-Multipoint-Multipoint-4, #d7eefe);
-  background: rgba(29, 29, 29, 0.4);
-}
-
-.col2 {
-  border-radius: 80px 20px 20px 20px;
-  border: 0.5px solid var(--Gradients-Multipoint-Multipoint-4, #d7eefe);
-  background: rgba(29, 29, 29, 0.4);
-  backdrop-filter: blur(12px);
-}
-.col3 {
-  border-radius: 20px 20px 20px 80px;
-  border: 0.5px solid var(--Gradients-Multipoint-Multipoint-4, #d7eefe);
-  background: rgba(29, 29, 29, 0.4);
-  backdrop-filter: blur(12px);
-}
-.col4 {
-  border-radius: 20px;
-  border: 0.5px solid var(--Gradients-Multipoint-Multipoint-4, #d7eefe);
-  background: rgba(29, 29, 29, 0.4);
-  backdrop-filter: blur(12px);
-}
-.col5 {
-  border-radius: 20px 80px 20px 20px;
-  border: 0.5px solid var(--Gradients-Multipoint-Multipoint-4, #d7eefe);
-  background: rgba(29, 29, 29, 0.4);
-  backdrop-filter: blur(12px);
 }
 
 .secBg {
@@ -191,5 +263,15 @@ body {
 @media screen and (max-width: 500px) {
   .drawer {
     width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 976px) {
+  .borderGradientC1::before,
+  .borderGradientC2::before,
+  .borderGradientC3::before,
+  .borderGradientC4::before,
+  .borderGradientC5::before {
+    background: transparent !important;
   }
 }
