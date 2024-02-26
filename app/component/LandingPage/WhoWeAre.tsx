@@ -9,21 +9,25 @@ import Link from 'next/link';
 
 const WhoWeAre = () => {
   return (
-    <div className='w-full pt-10 pb-24 2xl:mt-[26rem] 2xl:mb-[26rem] mt-0 mb-0'>
+    <div className='w-full pt-10 pb-24 2xl:mt-[12rem] 2xl:mb-[24rem] mt-0 mb-0'>
       <Wrapper>
-        <div className='w-full scale-100 2xl:scale-150 flex flex-col gap-4'>
-          <Fade duration={800} className='w-full' triggerOnce>
-            <p className='text-[18px] md:block hidden lg:text-left text-center font-normal textColor'>
+        <div className='w-full flex flex-col gap-4 z-50'>
+          <Fade
+            duration={800}
+            className='w-full scale-100 2xl:scale-150'
+            triggerOnce
+          >
+            <p className='text-[18px] md:block hidden cursor-pointer lg:text-left text-center font-normal textColor'>
               WHO WE ARE
             </p>
           </Fade>
           {/* 1st and 2nd col ---> */}
-          <div className='w-full z-50 grid grid-cols-1 lg:grid-cols-[1.3fr,2fr] gap-6 lg:mt-0 -mt-16'>
+          <div className='w-full grid 2xl:mt-[9rem] grid-cols-1 lg:grid-cols-[1.3fr,2fr] scale-100 2xl:scale-150 gap-6 lg:mt-0 -mt-16 z-50'>
             {/* ist col ---> */}
             <Slide
               direction='left'
               duration={1000}
-              className='w-full h-full justify-center flex items-center '
+              className='w-full h-full justify-center flex items-center'
               triggerOnce
             >
               <div className='w-full max-w-[550px] lg:max-w-full px-0 sm:px-6 py-0 sm:py-6 relative borderGradientC1  h-full flex flex-col justify-between lg:items-start items-center'>
@@ -58,7 +62,7 @@ const WhoWeAre = () => {
                 </div>
                 {/* learn more btn ---->  */}
                 <Link
-                  href='#'
+                  href='/about'
                   className='flex cursor-pointer z-50 hover:opacity-80 lg:mt-0 mt-8 justify-center items-center gap-2'
                 >
                   <p className='text-white-1 text-[16px] font-normal'>
@@ -75,7 +79,7 @@ const WhoWeAre = () => {
               className='w-full h-full flex justify-center items-center'
               triggerOnce
             >
-              <div className='w-full z-50 max-w-[550px] lg:max-w-full borderGradientC2 h-full px-0 sm:px-6 py-6 relative justify-between flex flex-col items-center lg:items-start'>
+              <div className='w-full max-w-[550px] lg:max-w-full borderGradientC2 h-full px-0 sm:px-6 py-6 relative justify-between flex flex-col items-center lg:items-start'>
                 {/* image ---> */}
                 <div className='lg:w-auto w-full block lg:absolute -bottom-1 right-0 xl:-right-1'>
                   <div className='w-[500px] lg:block hidden lg:w-[470px] xl:w-[520px] h-[450px] lg:h-[380px] xl:h-[450px] relative lg:ml-0 -ml-[14rem] -mb-[4rem] lg:mb-0'>
@@ -122,12 +126,12 @@ const WhoWeAre = () => {
             </Slide>
           </div>
           {/* 3rd + 4rd + 5th col -----> */}
-          <div className='w-full grid grid-cols-1 lg:grid-cols-[0.6fr,1fr,1fr] gap-6 mt-2'>
+          <div className='w-full grid grid-cols-1 lg:grid-cols-[0.6fr,1fr,1fr] gap-6 z-50 mt-2 2xl:mt-[17rem] scale-100 2xl:scale-150'>
             {/* 3rd col ---->  */}
             <Fade
               duration={800}
               delay={200}
-              className='w-full h-full z-50 justify-center items-center flex'
+              className='w-full h-full justify-center items-center flex'
               triggerOnce
             >
               <div className='w-full max-w-[550px] borderGradientC3 h-full flex items-center lg:items-start justify-between flex-col px-0 sm:px-6 py-6 lg:pb-6 pb-10 sm:pb-20'>
@@ -165,7 +169,7 @@ const WhoWeAre = () => {
             <Fade
               duration={800}
               delay={400}
-              className='w-full h-full z-50 flex justify-center items-center'
+              className='w-full h-full flex justify-center items-center'
               triggerOnce
             >
               <div className='w-full max-w-[550px] borderGradientC4 h-full flex justify-between items-center lg:items-start flex-col px-0 sm:px-6 py-6'>
@@ -190,10 +194,10 @@ const WhoWeAre = () => {
                   </p>
                 </div>
                 {/* learn more btn ---->  */}
-                <div className='w-full z-20 flex justify-center lg:justify-end lg:mt-0 mt-8'>
+                <div className='w-full flex justify-center lg:justify-end lg:mt-0 mt-8'>
                   <Link
                     href='#'
-                    className='flex hover:opacity-80 justify-center items-center gap-2'
+                    className='flex hover:opacity-80 z-50 justify-center items-center gap-2'
                   >
                     <p className='text-white-1 text-[16px] font-normal'>
                       Learn More
@@ -232,7 +236,7 @@ const WhoWeAre = () => {
                 <div className='w-full flex justify-center lg:justify-end mt-8 lg:mt-28'>
                   <Link
                     href='#'
-                    className='flex hover:opacity-80 justify-center z-50 items-center gap-2'
+                    className='flex hover:opacity-80 z-50 justify-center items-center gap-2'
                   >
                     <p className='text-white-1 text-[16px] font-normal'>
                       Learn More

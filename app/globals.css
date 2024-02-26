@@ -242,6 +242,7 @@ body {
   width: 50% !important;
   background-color: #090b0b !important;
 }
+
 @media screen and (max-width: 976px) {
   .col1 {
     border: none !important;
