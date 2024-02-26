@@ -126,7 +126,7 @@ const WhoWeAre = () => {
             </Slide>
           </div>
           {/* 3rd + 4rd + 5th col -----> */}
-          <div className='w-full grid grid-cols-1 lg:grid-cols-[0.6fr,1fr,1fr] gap-6 z-50 mt-2 2xl:mt-[17rem] scale-100 2xl:scale-150'>
+          <div className='w-full grid grid-cols-1 lg:grid-cols-[0.6fr,1fr,1fr] gap-6 z-50 mt-4 2xl:mt-[17rem] scale-100 2xl:scale-150'>
             {/* 3rd col ---->  */}
             <Fade
               duration={800}
