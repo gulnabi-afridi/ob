@@ -92,6 +92,16 @@ body {
   overflow: hidden;
 }
 
+/* background: linear-gradient(
+  to left,
+  #9945ff,
+  #28e0b9,
+  #5497d5,
+  #19fb9b,
+  #43b4ca,
+  #8752f3
+); */
+
 .borderGradient::before {
   content: '';
   position: absolute;
@@ -101,7 +111,6 @@ body {
   bottom: 0;
   border: 1px solid transparent;
   border-radius: 8px;
-
   background: linear-gradient(
     to left,
     #9945ff,

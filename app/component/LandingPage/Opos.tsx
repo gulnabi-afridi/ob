@@ -8,7 +8,7 @@ import { Fade, Slide } from 'react-awesome-reveal';
 const Opos = () => {
   return (
     <div className='w-full py-10 sm:mt-0 -mt-[5rem] xsm:-mt-[4rem] sm:py-24 lg:py-36 relative z-50'>
-      <Wrapper>
+      <div className='w-full scale-100 2xl:scale-150 max-w-[1280px] m-auto md:px-8 px-4 relative'>
         <div className='w-full grid lg:gap-4 grid-cols-1 gap-10 lg:grid-cols-2 justify-center items-center'>
           {/* left por ----> */}
           <div className='w-full lg:order-1 order-2 flex justify-center items-center'>
@@ -60,7 +60,7 @@ const Opos = () => {
           </div>
           {/* right por ---->  */}
           <Slide
-            className='sm:w-auto w-full flex lg:order-2 order-1 justify-center items-center xl:absolute xl:bottom-[3rem] right-0'
+            className='sm:w-auto w-full flex lg:order-2 order-1 justify-center items-center xl:absolute mt-[6rem] xl:mt-0 xl:-top-[5rem] -right-20'
             direction='right'
             duration={1000}
             triggerOnce
@@ -76,7 +76,7 @@ const Opos = () => {
             </div>
           </Slide>
         </div>
-      </Wrapper>
+      </div>
     </div>
   );
 };

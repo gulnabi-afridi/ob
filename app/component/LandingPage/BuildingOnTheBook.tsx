@@ -6,7 +6,7 @@ import { Fade, Slide } from 'react-awesome-reveal';
 
 const BuildingOnTheBook = () => {
   return (
-    <div className="w-full h-[100px] sm:h-[200px] md:h-[256px] bg-[url('/assets/rectangle.png')] relative">
+    <div className="w-full scale-100 2xl:scale-150 h-[100px] sm:h-[200px] md:h-[256px] bg-[url('/assets/rectangle.png')] relative">
       <div className='w-full bg-[#121616] md:gap-0 gap-10 sm:gap-8 absolute left-[50%] -translate-x-[50%] -bottom-[330%] sm:-bottom-[140%] md:-bottom-[45%] max-w-[320px] sm:max-w-[450px] md:max-w-[700px] lg:max-w-[900px] flex md:flex-row flex-col justify-between items-center px-6 sm:px-4 md:px-7 py-8 sm:py-5 rounded-lg'>
         <div className='flex flex-col gap-2'>
           <Fade duration={500} delay={100} triggerOnce>

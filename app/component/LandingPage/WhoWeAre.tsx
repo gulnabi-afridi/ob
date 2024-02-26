@@ -9,9 +9,9 @@ import Link from 'next/link';
 
 const WhoWeAre = () => {
   return (
-    <div className='w-full pt-10 pb-24'>
+    <div className='w-full pt-10 pb-24 2xl:mt-[26rem] 2xl:mb-[26rem] mt-0 mb-0'>
       <Wrapper>
-        <div className='w-full flex flex-col gap-4'>
+        <div className='w-full scale-100 2xl:scale-150 flex flex-col gap-4'>
           <Fade duration={800} className='w-full' triggerOnce>
             <p className='text-[18px] md:block hidden lg:text-left text-center font-normal textColor'>
               WHO WE ARE

@@ -7,7 +7,7 @@ import { Fade, Slide } from 'react-awesome-reveal';
 
 const Security = () => {
   return (
-    <div className='w-full mt-10 py-10 sm:py-16 secBg relative overflow-hidden'>
+    <div className='w-full 2xl:scale-150 scale-100 mt-10 py-10 sm:py-16 2xl:py-[8rem] secBg relative overflow-hidden'>
       <Wrapper>
         <div className='w-full flex flex-col gap-2 justify-center items-center'>
           <Fade duration={800} delay={100} triggerOnce>

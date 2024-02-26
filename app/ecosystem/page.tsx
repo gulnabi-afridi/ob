@@ -9,9 +9,9 @@ import Link from 'next/link';
 
 const page = () => {
   return (
-    <div className='w-full overflow-x-hidden min-h-[calc(100vh-60px)] sm:min-h-[calc(100vh-90px)] relative flex justify-center md:justify-start items-center md:items-start'>
+    <div className='w-full scale-100 2xl:scale-150 overflow-x-hidden min-h-[calc(100vh-60px)] sm:min-h-[calc(100vh-90px)] relative flex justify-center md:justify-center items-center md:items-center'>
       <Wrapper>
-        <div className='w-full h-full flex flex-col gap-10 sm:gap-16 pt-0 sm:pt-20 xl:pb-0 pb-0 sm:pb-16 '>
+        <div className='w-full h-full flex flex-col gap-10 sm:gap-16 '>
           <Fade duration={800} delay={100}>
             <div className='flex flex-col gap-0 justify-center items-center w-full'>
               <p className='text-[12px] sm:text-[18px] lg:text-left text-center font-normal textColor'>
