@@ -125,6 +125,13 @@ body {
   background-color: #090b0b !important;
 }
 
+.hrGr:hover {
+  background: #00ffe5;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 @media screen and (max-width: 976px) {
   .col1 {
     border: none !important;
@@ -151,19 +158,15 @@ body {
   .drawer {
     width: 70% !important;
   }
+  .wrapper1 {
+    background: #090b0b !important;
+  }
+  .borderGradientC1 {
+    background: transparent !important;
+  }
 }
 @media screen and (max-width: 500px) {
   .drawer {
     width: 100% !important;
-  }
-}
-
-@media screen and (max-width: 976px) {
-  .borderGradientC1::before,
-  .borderGradientC2::before,
-  .borderGradientC3::before,
-  .borderGradientC4::before,
-  .borderGradientC5::before {
-    background: transparent !important;
   }
 }

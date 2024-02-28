@@ -6,6 +6,7 @@ import * as Icons from '../../svg/Icons';
 import Image from 'next/image';
 import { Fade, Slide } from 'react-awesome-reveal';
 import Link from 'next/link';
+import { FiArrowRight } from 'react-icons/fi';
 
 const WhoWeAre = () => {
   return (
@@ -64,12 +65,10 @@ const WhoWeAre = () => {
                   {/* learn more btn ---->  */}
                   <Link
                     href='/about'
-                    className='flex cursor-pointer z-50 hover:opacity-80 lg:mt-0 mt-8 justify-center items-center gap-2'
+                    className='flex cursor-pointer text-white-1 z-50 group hrGr lg:mt-0 mt-8 justify-center items-center gap-2'
                   >
-                    <p className='text-white-1 text-[16px] font-normal'>
-                      Learn More
-                    </p>
-                    <Icons.rightArrow className='w-[24px] h-[24px]' />
+                    <p className='text-[16px] font-normal'>Learn More</p>
+                    <FiArrowRight className='text-[20px] text-white-1 group-hover:text-[#00ffe5]' />
                   </Link>
                 </div>
               </div>
@@ -118,12 +117,12 @@ const WhoWeAre = () => {
                   {/* learn more btn ---->  */}
                   <Link
                     href='#'
-                    className='flex hover:opacity-80 z-50 justify-center items-center gap-2 mt-8 lg:mt-14 xl:mt-8'
+                    className='flex hover:opacity-80 hrGr group z-50 justify-center items-center gap-2 mt-8 lg:mt-14 xl:mt-8'
                   >
                     <p className='text-white-1 text-[16px] font-normal'>
                       Learn More
                     </p>
-                    <Icons.rightArrow className='w-[24px] h-[24px]' />
+                    <FiArrowRight className='text-[20px] text-white-1 group-hover:text-[#00ffe5]' />
                   </Link>
                 </div>
               </div>
@@ -160,12 +159,12 @@ const WhoWeAre = () => {
                   <div className='w-full sm:flex hidden justify-center lg:justify-end lg:mt-0 mt-8'>
                     <Link
                       href='#'
-                      className='flex hover:opacity-80 z-50 justify-center items-center gap-2'
+                      className='flex hrGr group z-50 justify-center items-center gap-2'
                     >
                       <p className='text-white-1 text-[16px] font-normal'>
                         Learn More
                       </p>
-                      <Icons.rightArrow className='w-[24px] h-[24px]' />
+                      <FiArrowRight className='text-[20px] text-white-1 group-hover:text-[#00ffe5]' />
                     </Link>
                   </div>
                 </div>
@@ -204,12 +203,12 @@ const WhoWeAre = () => {
                   <div className='w-full flex justify-center lg:justify-end lg:mt-0 mt-8'>
                     <Link
                       href='#'
-                      className='flex hover:opacity-80 z-50 justify-center items-center gap-2'
+                      className='flex group hrGr z-50 justify-center items-center gap-2'
                     >
                       <p className='text-white-1 text-[16px] font-normal'>
                         Learn More
                       </p>
-                      <Icons.rightArrow className='w-[24px] h-[24px]' />
+                      <FiArrowRight className='text-[20px] text-white-1 group-hover:text-[#00ffe5]' />
                     </Link>
                   </div>
                 </div>
@@ -245,12 +244,12 @@ const WhoWeAre = () => {
                   <div className='w-full flex justify-center lg:justify-end mt-8 lg:mt-28'>
                     <Link
                       href='#'
-                      className='flex hover:opacity-80 z-50 justify-center items-center gap-2'
+                      className='flex hrGr group z-50 justify-center items-center gap-2'
                     >
                       <p className='text-white-1 text-[16px] font-normal'>
                         Learn More
                       </p>
-                      <Icons.rightArrow className='w-[24px] h-[24px]' />
+                      <FiArrowRight className='text-[20px] text-white-1 group-hover:text-[#00ffe5]' />
                     </Link>
                   </div>
                 </div>
