@@ -86,144 +86,26 @@ body {
   -webkit-text-fill-color: transparent;
 }
 /* border gradents ------>  */
+
 .borderGradient {
-  position: relative;
-  border-radius: 6px;
-  overflow: hidden;
+  background: #090b0b;
 }
 
-/* background: linear-gradient(
-  to left,
-  #9945ff,
-  #28e0b9,
-  #5497d5,
-  #19fb9b,
-  #43b4ca,
-  #8752f3
-); */
+.gradient-wrapper {
+  position: relative;
+  background: linear-gradient(to right top, #9945ff, #19fb9b);
+  padding: 2px;
+}
 
-.borderGradient::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border: 1px solid transparent;
-  border-radius: 8px;
-  background: linear-gradient(
-    to left,
-    #9945ff,
-    #28e0b9,
-    #5497d5,
-    #19fb9b,
-    #43b4ca,
-    #8752f3
-  );
-  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-  -webkit-mask-composite: destination-out;
-  mask-composite: exclude;
+.wrapper1 {
+  position: relative;
+  background: linear-gradient(to right, #d7eefe, #0682db);
+  padding: 1px;
+  border-radius: 16px;
 }
 .borderGradientC1 {
-  position: relative;
-  border-radius: 6px;
-  overflow: hidden;
-}
-.borderGradientC2 {
-  position: relative;
-  border-radius: 6px;
-  overflow: hidden;
-}
-.borderGradientC1::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border: 1px solid transparent;
-  border-radius: 20px 80px 20px 20px;
-
-  background: linear-gradient(#d7eefe, #7dc7fc, #0682db, #0682db, #d7eefe);
-  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-  -webkit-mask-composite: destination-out;
-  mask-composite: exclude;
-}
-.borderGradientC2::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border: 1px solid transparent;
-  border-radius: 80px 20px 20px 20px;
-  background: linear-gradient(#d7eefe, #7dc7fc, #0682db, #0682db, #d7eefe);
-  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-  -webkit-mask-composite: destination-out;
-  mask-composite: exclude;
-}
-.borderGradientC3 {
-  position: relative;
-  border-radius: 6px;
-  overflow: hidden;
-}
-
-.borderGradientC3::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border: 1px solid transparent;
-  border-radius: 20px 20px 20px 80px;
-
-  background: linear-gradient(#d7eefe, #7dc7fc, #0682db, #0682db, #d7eefe);
-  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-  -webkit-mask-composite: destination-out;
-  mask-composite: exclude;
-}
-.borderGradientC4 {
-  position: relative;
-  border-radius: 6px;
-  overflow: hidden;
-}
-
-.borderGradientC4::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border: 1px solid transparent;
-  border-radius: 20px;
-  background: linear-gradient(#d7eefe, #7dc7fc, #0682db, #0682db, #d7eefe);
-  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-  -webkit-mask-composite: destination-out;
-  mask-composite: exclude;
-}
-
-.borderGradientC5 {
-  position: relative;
-  border-radius: 6px;
-  overflow: hidden;
-}
-
-.borderGradientC5::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border: 1px solid transparent;
-  border-radius: 20px 80px 20px 20px;
-  background: linear-gradient(#d7eefe, #7dc7fc, #0682db, #0682db, #d7eefe);
-  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-  -webkit-mask-composite: destination-out;
-  mask-composite: exclude;
+  background: #090b0b;
+  border-radius: 16px;
 }
 
 /* border gradients ends here ------> */

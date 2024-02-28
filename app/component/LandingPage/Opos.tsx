@@ -51,9 +51,11 @@ const Opos = () => {
                   <button className='px-[20px] sm:px-[24px] hover:opacity-80 py-[10px] sm:py-[12px] bg-purple-1 text-[16px] sm:text-[18px] text-white-1 rounded-lg'>
                     Trade Now
                   </button>
-                  <button className='px-[20px] hover:bg-white-1/10 borderGradient sm:px-[24px] borderGradient hover:opacity-80  py-[10px] sm:py-[12px] bg-transparent text-[16px] sm:text-[18px] text-white-1 rounded-lg'>
-                    Build With Us
-                  </button>
+                  <div className='gradient-wrapper rounded-lg !p-[1px]'>
+                    <button className='px-[20px] borderGradient sm:px-[24px] hover:opacity-80 rounded-lg py-[10px] sm:py-[12px] bg-transparent text-[16px] sm:text-[18px] text-white-1'>
+                      Build With Us
+                    </button>
+                  </div>
                 </div>
               </Fade>
             </div>
