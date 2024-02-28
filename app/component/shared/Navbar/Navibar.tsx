@@ -17,7 +17,7 @@ const Navibar = () => {
   };
 
   return (
-    <div className='w-full scale-100 2xl:scale-150 bg-transparent h-[60px] sm:h-[90px]'>
+    <div className='w-full bg-transparent h-[60px] sm:h-[90px]'>
       <Wrapper style='h-full'>
         <div className='w-full h-full flex justify-between items-center'>
           <Link href='/'>
