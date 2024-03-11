@@ -17,14 +17,14 @@ const Navibar = () => {
   };
 
   return (
-    <div className='w-full bg-transparent h-[60px] sm:h-[90px]'>
+    <div className='w-full bg-transparent cursor-pointer h-[60px] 3xl:h-[160px] sm:h-[90px]'>
       <Wrapper style='h-full'>
         <div className='w-full h-full flex justify-between items-center'>
-          <Link href='/'>
+          <Link href='/' className='z-50'>
             <Icons.logo className='w-[147px] h-[28px] sm:h-[32px]' />
           </Link>
           {/* links ---> */}
-          <div className='hidden md:flex justify-center items-center gap-10'>
+          <div className='hidden md:flex justify-center items-center gap-10 z-50'>
             {links.map((item, index) => {
               return (
                 <Link
