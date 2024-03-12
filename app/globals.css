@@ -97,6 +97,12 @@ body {
   padding: 2px;
 }
 
+@media screen and (min-width: 2900px) {
+  .gradient-wrapper {
+    padding: 4px !important;
+  }
+}
+
 .wrapper1 {
   position: relative;
   background: linear-gradient(to right, #d7eefe, #0682db);

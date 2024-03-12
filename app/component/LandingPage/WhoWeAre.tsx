@@ -13,17 +13,13 @@ const WhoWeAre = () => {
     <div className='w-full pt-10 pb-24 2xl:mt-[12rem] 2xl:mb-[24rem] mt-0 mb-0'>
       <Wrapper>
         <div className='w-full flex flex-col gap-4 z-50'>
-          <Fade
-            duration={800}
-            className='w-full scale-100 2xl:scale-150'
-            triggerOnce
-          >
+          <Fade duration={800} className='w-full' triggerOnce>
             <p className='text-[18px] md:block hidden cursor-pointer lg:text-left text-center font-normal textColor'>
               WHO WE ARE
             </p>
           </Fade>
           {/* 1st and 2nd col ---> */}
-          <div className='w-full grid 2xl:mt-[9rem] grid-cols-1 lg:grid-cols-[1.3fr,2fr] scale-100 2xl:scale-150 gap-6 lg:mt-0 -mt-16 z-50'>
+          <div className='w-full grid 2xl:mt-[9rem] grid-cols-1 lg:grid-cols-[1.3fr,2fr] gap-6 lg:mt-0 -mt-16 z-50'>
             {/* ist col ---> */}
             <Slide
               direction='left'
@@ -129,7 +125,7 @@ const WhoWeAre = () => {
             </Slide>
           </div>
           {/* 3rd + 4rd + 5th col -----> */}
-          <div className='w-full grid grid-cols-1 lg:grid-cols-[0.6fr,1fr,1fr] gap-6 z-50 mt-4 2xl:mt-[17rem] scale-100 2xl:scale-150'>
+          <div className='w-full grid grid-cols-1 lg:grid-cols-[0.6fr,1fr,1fr] gap-6 z-50 mt-4 2xl:mt-[17rem]'>
             {/* 3rd col ---->  */}
             <Fade
               duration={800}
