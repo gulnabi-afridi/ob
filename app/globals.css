@@ -114,6 +114,12 @@ body {
   border-radius: 16px;
 }
 
+@media screen and (min-width: 1800px) {
+  .wrapper1 {
+    padding: 2px !important;
+  }
+}
+
 @media screen and (min-width: 2500px) {
   .wrapper1 {
     padding: 3px !important;

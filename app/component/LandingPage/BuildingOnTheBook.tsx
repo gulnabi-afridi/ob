@@ -7,7 +7,7 @@ import { Fade, Slide } from 'react-awesome-reveal';
 const BuildingOnTheBook = () => {
   return (
     <div className="w-full h-[100px] sm:h-[200px] md:h-[256px] 2xl:h-[350px] 3xl:h-[500px] bg-[url('/assets/rectangle.png')] bg-no-repeat bg-cover relative">
-      <div className='w-full bg-[#121616] md:gap-0 gap-10 sm:gap-8 absolute left-[50%] -translate-x-[50%] -bottom-[330%] sm:-bottom-[140%] md:-bottom-[45%] max-w-[320px] sm:max-w-[450px] md:max-w-[700px] lg:max-w-[900px] 2xl:max-w-[1250px] 3xl:max-w-[1800px] flex md:flex-row flex-col justify-between items-center px-6 sm:px-4 md:px-7 2xl:px-16 py-8 sm:py-5 2xl:py-10 rounded-lg 3xl:rounded-2xl'>
+      <div className='w-full overflow-x-hidden bg-[#121616] md:gap-0 gap-10 sm:gap-8 absolute left-[50%] -translate-x-[50%] -bottom-[330%] sm:-bottom-[140%] md:-bottom-[45%] max-w-[320px] sm:max-w-[450px] md:max-w-[700px] lg:max-w-[900px] 2xl:max-w-[1250px] 3xl:max-w-[1800px] flex md:flex-row flex-col justify-between items-center px-6 sm:px-4 md:px-7 2xl:px-16 py-8 sm:py-5 2xl:py-10 rounded-lg 3xl:rounded-2xl'>
         <div className='flex flex-col gap-2'>
           <Fade duration={500} delay={100} triggerOnce>
             <p className='text-[12px] sm:text-[16px] lg:text-[18px] 2xl:text-[22px] 3xl:text-[32px] font-normal textColor'>

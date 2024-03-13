@@ -42,7 +42,7 @@ const Navibar = () => {
             })}
           </div>
           {/* trade now btn -----> */}
-          <button className='text-white-1 z-50 px-8 2xl:px-12 3xl:px-16 md:block hidden py-3 2xl:py-5 3xl:py-9 bg-purple-1 rounded-lg text-[16px] 2xl:text-[24px] 3xl:text-[40px] font-medium hover:opacity-80 active:translate-y-[1px]'>
+          <button className='text-white-1 z-50 px-8 2xl:px-10 3xl:px-16 md:block hidden py-3 2xl:py-4 3xl:py-7 bg-purple-1 rounded-lg text-[16px] 2xl:text-[21px] 3xl:text-[38px] font-medium hover:opacity-80 active:translate-y-[1px]'>
             Trade Now
           </button>
           {/* navibar for small screen -----> */}

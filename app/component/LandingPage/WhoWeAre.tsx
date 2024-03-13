@@ -10,7 +10,7 @@ import { FiArrowRight } from 'react-icons/fi';
 
 const WhoWeAre = () => {
   return (
-    <div className='w-full pt-10 pb-24 2xl:mt-[4rem] 2xl:mb-[4rem] mt-8 sm:mt-0 mb-0'>
+    <div className='w-full overflow-x-hidden pt-10 pb-24 2xl:mt-[4rem] 2xl:mb-[4rem] mt-8 sm:mt-0 mb-0'>
       <Wrapper>
         <div className='w-full flex flex-col gap-4 z-50'>
           <Fade duration={800} className='w-full' triggerOnce>
@@ -24,7 +24,7 @@ const WhoWeAre = () => {
             <Slide
               direction='left'
               duration={1000}
-              className='w-full h-full justify-center flex items-center'
+              className='w-full justify-center flex items-center'
               triggerOnce
             >
               <div className='w-full max-w-[550px] 2xl:w-[680px] 3xl:w-[850px] lg:max-w-full h-full relative wrapper1'>
@@ -75,7 +75,7 @@ const WhoWeAre = () => {
             <Slide
               direction='right'
               duration={1000}
-              className='w-full h-full flex justify-center items-center'
+              className='w-full flex justify-center items-center'
               triggerOnce
             >
               <div className='wrapper1 w-full !rounded-tl-[80px] max-w-[550px] lg:max-w-full h-full'>
@@ -132,7 +132,7 @@ const WhoWeAre = () => {
             <Fade
               duration={800}
               delay={200}
-              className='w-full h-full justify-center items-center flex'
+              className='w-full justify-center items-center flex'
               triggerOnce
             >
               <div className='w-full max-w-[550px] !rounded-bl-[80px] h-full wrapper1'>
@@ -172,7 +172,7 @@ const WhoWeAre = () => {
             <Fade
               duration={800}
               delay={400}
-              className='w-full h-full flex justify-center items-center'
+              className='w-full flex justify-center items-center'
               triggerOnce
             >
               <div className='w-full max-w-[550px] 2xl:max-w-[650px] 3xl:max-w-[800px] h-full wrapper1'>
@@ -218,13 +218,13 @@ const WhoWeAre = () => {
             <Fade
               duration={800}
               delay={600}
-              className='w-full z-40 h-full flex justify-center items-center'
+              className='w-full z-40 flex justify-center items-center'
               triggerOnce
             >
               <div className='w-full h-full max-w-[550px] 2xl:max-w-[600px] 3xl:max-w-[800px] !rounded-tr-[80px] wrapper1'>
                 <div className='w-full max-w-[550px] h-full 2xl:max-w-[600px] 3xl:max-w-[800px] !rounded-tr-[80px] borderGradientC1 flex justify-between items-start flex-col px-0 sm:px-6 py-6'>
                   <div className='w-full flex flex-col gap-4'>
-                    <h2 className='text-[40px] break-all 2xl:text-[58px] 3xl:text-[75px] lg:block hidden mt-[9rem] tracking-[3px] leading-[40px] sm:leading-[55px] 2xl:leading-[70px] 3xl:leading-[90px] text-white-1 font-terminaExtraDemi'>
+                    <h2 className='text-[40px] whitespace-nowrap 2xl:text-[58px] 3xl:text-[75px] lg:block hidden mt-[9rem] tracking-[3px] leading-[40px] sm:leading-[55px] 2xl:leading-[70px] 3xl:leading-[90px] text-white-1 font-terminaExtraDemi'>
                       Permisonless <br /> Trustless{' '}
                       <span className='textColor2'>
                         {' '}
