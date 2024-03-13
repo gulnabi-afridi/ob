@@ -10,7 +10,7 @@ import { FiArrowRight } from 'react-icons/fi';
 
 const WhoWeAre = () => {
   return (
-    <div className='w-full pt-10 pb-24 2xl:mt-[4rem] 2xl:mb-[4rem] mt-0 mb-0'>
+    <div className='w-full pt-10 pb-24 2xl:mt-[4rem] 2xl:mb-[4rem] mt-8 sm:mt-0 mb-0'>
       <Wrapper>
         <div className='w-full flex flex-col gap-4 z-50'>
           <Fade duration={800} className='w-full' triggerOnce>
@@ -50,7 +50,7 @@ const WhoWeAre = () => {
                       </div>
                     </div>
                     <h2 className='text-[26px] sm:text-[32px] sm:mt-0 text-center lg:text-left xl:text-[48px] 2xl:text-[58px] 3xl:text-[75px] mt-12 lg:mt-[6rem] xl:mt-[8rem] tracking-[3px] text-white-1 font-terminaExtraDemi'>
-                      A DEX for <br />{' '}
+                      A DEX for <br />
                       <span className='textColor'> The People</span>
                     </h2>
                     <p className='text-white-4 lg:text-left text-center text-[16px] 2xl:text-[22px] 3xl:text-[32px] font-normal'>
@@ -138,7 +138,7 @@ const WhoWeAre = () => {
               <div className='w-full max-w-[550px] !rounded-bl-[80px] h-full wrapper1'>
                 <div className='w-full max-w-[550px] !rounded-bl-[80px] borderGradientC1 h-full flex items-center lg:items-start justify-between flex-col px-0 sm:px-6 py-6 lg:pb-6 pb-10 sm:pb-20'>
                   <div className='w-full max-w-[550px] flex flex-col gap-4'>
-                    <h2 className='text-[40px] lg:block hidden 2xl:text-[58px] 3xl:text-[75px] tracking-[3px] mt-20 leading-[40px] 2xl:leading-[70px] 3xl:leading-[90px]  text-white-1 font-terminaExtraDemi'>
+                    <h2 className='text-[40px] lg:block hidden 2xl:text-[58px] 3xl:text-[75px] tracking-[3px] mt-20 leading-[50px] 2xl:leading-[70px] 3xl:leading-[90px]  text-white-1 font-terminaExtraDemi'>
                       <span className='textColor'> Zero</span> Protocol Fees
                     </h2>
                     <h2 className='text-[26px] sm:text-[40px] lg:hidden block tracking-[3px] text-center mt-10 leading-[40px] sm:leading-[50px] text-white-1 font-terminaExtraDemi'>
@@ -188,7 +188,7 @@ const WhoWeAre = () => {
                     </div>
                   </div>
                   <div className='w-full flex gap-4 flex-col'>
-                    <h2 className='text-[26px] sm:text-[40px] 2xl:text-[58px] 3xl:text-[75px] z-40 text-center lg:text-left break-all xl:whitespace-nowrap mt-0 lg:mt-[12rem] 2xl:mt-[14rem] 3xl:mt-[22rem] tracking-[3px] leading-[40px] 2xl:leading-[80px] sm:leading-[45px] text-white-1 font-terminaExtraDemi'>
+                    <h2 className='text-[26px] sm:text-[40px] 2xl:text-[58px] 3xl:text-[75px] z-40 text-center lg:text-left break-all xl:whitespace-nowrap mt-0 lg:mt-[12rem] 2xl:mt-[14rem] 3xl:mt-[22rem] tracking-[3px] leading-[40px] 2xl:leading-[80px] sm:leading-[55px] text-white-1 font-terminaExtraDemi'>
                       Infinite <br />{' '}
                       <span className='textColor break-words'>
                         Customization
@@ -224,7 +224,7 @@ const WhoWeAre = () => {
               <div className='w-full h-full max-w-[550px] 2xl:max-w-[600px] 3xl:max-w-[800px] !rounded-tr-[80px] wrapper1'>
                 <div className='w-full max-w-[550px] h-full 2xl:max-w-[600px] 3xl:max-w-[800px] !rounded-tr-[80px] borderGradientC1 flex justify-between items-start flex-col px-0 sm:px-6 py-6'>
                   <div className='w-full flex flex-col gap-4'>
-                    <h2 className='text-[40px] break-all 2xl:text-[58px] 3xl:text-[75px] lg:block hidden mt-[9rem] tracking-[3px] leading-[45px] 2xl:leading-[70px] 3xl:leading-[90px] text-white-1 font-terminaExtraDemi'>
+                    <h2 className='text-[40px] break-all 2xl:text-[58px] 3xl:text-[75px] lg:block hidden mt-[9rem] tracking-[3px] leading-[40px] sm:leading-[55px] 2xl:leading-[70px] 3xl:leading-[90px] text-white-1 font-terminaExtraDemi'>
                       Permisonless <br /> Trustless{' '}
                       <span className='textColor2'>
                         {' '}
