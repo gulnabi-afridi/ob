@@ -7,23 +7,23 @@ import { Fade, Slide } from 'react-awesome-reveal';
 
 const Security = () => {
   return (
-    <div className='w-full mt-10 py-10 sm:py-16 2xl:py-[4rem] secBg relative overflow-hidden z-50'>
+    <div className='w-full mt-6 py-10 sm:py-16 2xl:py-[5rem] secBg relative overflow-hidden z-50'>
       <Wrapper>
         <div className='w-full flex flex-col gap-2 justify-center items-center'>
           <Fade duration={800} delay={100} triggerOnce>
-            <p className='text-[12px] sm:text-[18px] font-normal textColor'>
+            <p className='text-[12px] sm:text-[18px] 2xl:text-[22px] 3xl:text-[32px] font-normal textColor'>
               SECURITY
             </p>
           </Fade>
           <Slide direction='up' duration={800} delay={200} triggerOnce>
-            <h1 className='text-[20px] sm:text-[28px] text-white-1/80 font-semibold'>
+            <h1 className='text-[20px] sm:text-[28px] 2xl:text-[40px] 3xl:text-[60px] text-white-1/80 font-semibold'>
               Audited and Verified by
             </h1>
           </Slide>
           <Slide direction='up' duration={800} delay={300} triggerOnce>
             <div className='flex justify-center items-center gap-2 mt-4'>
-              <Icons.logo2 className='w-[28px] sm:w-[85px] h-[28px] sm:h-[85px]' />
-              <Icons.otterSec className='w-[90px] sm:w-[313px] h-[17px] sm:h-[57px]' />
+              <Icons.logo2 className='w-[28px] sm:w-[85px] 2xl:w-[150px] 3xl:w-[250px] h-[28px] sm:h-[85px] 2xl:h-[130px] 3xl:h-[200px]' />
+              <Icons.otterSec className='w-[90px] sm:w-[313px] 2xl:w-[450px] 3xl:w-[620px] h-[17px] sm:h-[57px] 2xl:h-[100px] 3xl:h-[180px]' />
             </div>
           </Slide>
 
@@ -32,9 +32,9 @@ const Security = () => {
             duration={800}
             delay={400}
             triggerOnce
-            className='z-50 mb-0 2xl:mb-[7rem]'
+            className='z-50 mb-0 2xl:mb-[0rem]'
           >
-            <button className='px-[20px] py-[10px] mt-6 sm:mt-10 active:translate-y-[1px] hover:opacity-80 rounded-lg bg-purple-1 text-white-1/80 text-[14px] sm:text-[16px] font-medium'>
+            <button className='px-[20px] 2xl:px-[30px] 3xl:px-[40px] py-[10px] 3xl:py-[20px] 2xl:py-[16px] mt-6 sm:mt-10 active:translate-y-[1px] hover:opacity-80 rounded-lg bg-purple-1 text-white-1/80 text-[14px] sm:text-[16px] 2xl:text-[20px] 3xl:text-[26px] font-medium'>
               View Full Report
             </button>
           </Fade>

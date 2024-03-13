@@ -10,7 +10,7 @@ import { FiArrowRight } from 'react-icons/fi';
 
 const WhoWeAre = () => {
   return (
-    <div className='w-full pt-10 pb-24 2xl:mt-[12rem] 2xl:mb-[24rem] mt-0 mb-0'>
+    <div className='w-full pt-10 pb-24 2xl:mt-[4rem] 2xl:mb-[4rem] mt-0 mb-0'>
       <Wrapper>
         <div className='w-full flex flex-col gap-4 z-50'>
           <Fade duration={800} className='w-full' triggerOnce>
