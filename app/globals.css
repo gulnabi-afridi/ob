@@ -109,6 +109,21 @@ body {
   padding: 1px;
   border-radius: 16px;
 }
+@media screen and (min-width: 1800px) {
+  .wrapper1 {
+    padding: 2px !important;
+  }
+}
+@media screen and (min-width: 2500px) {
+  .wrapper1 {
+    padding: 3px !important;
+  }
+}
+@media screen and (min-width: 3000px) {
+  .wrapper1 {
+    padding: 4px !important;
+  }
+}
 .borderGradientC1 {
   background: #090b0b;
   border-radius: 16px;
