@@ -17,11 +17,11 @@ const Navibar = () => {
   };
 
   return (
-    <div className='w-full bg-transparent cursor-pointer h-[60px] 3xl:h-[160px] sm:h-[90px]'>
+    <div className='w-full bg-transparent cursor-pointer h-[60px] 2xl:h-[120px] 3xl:h-[210px] sm:h-[90px]'>
       <Wrapper style='h-full'>
         <div className='w-full h-full flex justify-between items-center'>
           <Link href='/' className='z-50'>
-            <Icons.logo className='w-[147px] h-[28px] sm:h-[32px]' />
+            <Icons.logo className='w-[147px] 2xl:w-[240px] 3xl:w-[400px] h-[28px] sm:h-[32px] 2xl:h-[62px] 3xl:h-[140px]' />
           </Link>
           {/* links ---> */}
           <div className='hidden md:flex justify-center items-center gap-10 z-50'>
@@ -34,7 +34,7 @@ const Navibar = () => {
                     pathName === item.path
                       ? 'after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-[#00FFE5] after:w-full after:duration-200'
                       : ' after:bg-white-1'
-                  } font-normal text-[18px] relative after:absolute after:w-0 after:bottom-0 after:left-0 after:h-[2px] hover:after:w-full after:duration-200`}
+                  } font-normal text-[18px] 2xl:text-[26px] 3xl:text-[46px] relative after:absolute after:w-0 after:bottom-0 after:left-0 after:h-[2px] hover:after:w-full after:duration-200`}
                 >
                   {item.name}
                 </Link>
@@ -42,7 +42,7 @@ const Navibar = () => {
             })}
           </div>
           {/* trade now btn -----> */}
-          <button className='text-white-1 px-8 md:block hidden py-3 bg-purple-1 rounded-lg text-[16px] font-medium hover:opacity-80 active:translate-y-[1px]'>
+          <button className='text-white-1 z-50 px-8 2xl:px-12 3xl:px-16 md:block hidden py-3 2xl:py-5 3xl:py-9 bg-purple-1 rounded-lg text-[16px] 2xl:text-[24px] 3xl:text-[40px] font-medium hover:opacity-80 active:translate-y-[1px]'>
             Trade Now
           </button>
           {/* navibar for small screen -----> */}
