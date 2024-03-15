@@ -82,7 +82,7 @@ const WhoWeAre = () => {
                 <div className='w-full max-w-[550px] !rounded-tl-[80px] lg:max-w-full borderGradientC1 h-full px-0 sm:px-6 py-6 relative justify-between flex flex-col items-center lg:items-start'>
                   {/* image ---> */}
                   <div className='lg:w-auto w-full block lg:absolute bottom-1 right-0 lg:right-2 xl:right-1'>
-                    <div className='w-[500px] 2xl:w-[590px] 3xl:w-[750px] lg:block hidden lg:w-[320px] xl:w-[400px] h-[450px] lg:h-[260px] 2xl:h-[500px] 3xl:h-[650px] xl:h-[350px] relative lg:ml-0 -ml-[14rem] -mb-[4rem] lg:mb-0'>
+                    <div className='w-[500px] 2xl:w-[590px] 3xl:w-[750px] lg:block hidden lg:w-[320px] xl:w-[420px] h-[450px] lg:h-[260px] 2xl:h-[500px] 3xl:h-[650px] xl:h-[350px] relative lg:ml-0 -ml-[14rem] -mb-[4rem] lg:mb-0'>
                       <Image
                         src='/assets/object.svg'
                         fill
